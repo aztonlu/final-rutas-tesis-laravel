@@ -4,7 +4,7 @@
 @section('description', 'Tierras de los Andes: Agence de voyages et Tour opérateur péruvien spécialiste des voyages découverte, aventure, randonnée et trekking en petit groupe et sur mesure')
 
 @section('translate')
-  <div class="top-header">
+  <!--<div class="top-header">
 
         <div class="wrap-top">
 
@@ -24,7 +24,7 @@
 
         </div>
 
-    </div>
+    </div>-->
 @endsection
 
 
@@ -68,7 +68,7 @@
                   </div>
                      <div class="row">
 
-                    
+
                 <div class="col-sm-12">
                  <div>
                   <img src="images/excursiones2.png" style="width: 140px; height: 100px">
@@ -78,7 +78,7 @@
               <p>Des visites dans les 4 coins du Pérou</p>
             </div>
                   </div>
-                              
+
                   </div>
                   </div>
                   </div>
@@ -200,7 +200,7 @@
                         Santé et sécurité<br>
 
                         Généralités : Au Pérou, il est important de respecter quelques règles d’hygiène et de santé. Nous vous conseillons donc de :<br>
- 
+
                         • Ne pas boire l’eau du robinet, sauf si elle est bouillie ou purifiée à l’aide de pastilles. <br>
                         • Vous laver régulièrement les mains pour limiter les risques de contaminations. <br>
                         • Éviter la viande et le poisson achetés sur les marchés : préférez les restaurants pour goûter aux spécialités telles que le ceviche.  <br><br>
@@ -209,7 +209,7 @@
                         • Diphtérie-tétanos-poliomyélite<br>
                         • Fièvre jaune (en cas de séjour en Amazonie, et qui est obligatoire en cas de séjour  au Vénézuela depuis el Pérou) <br>
                         • Grippe (recommandée pour les sujets les plus fragiles, de nombreux cas de grippe AH1N1 ayant été détectés au Pérou)<br><br>
- 
+
                         Séjour en Amazonie : En plus d’une vaccination contre la fièvre jaune, un traitement contre le paludisme peut être recommandé (consulter l’avis de votre médecin)  <br>
 
                       </div>
@@ -219,7 +219,7 @@
                       <div class="carousel-caption">
                         Que dois-je apporter?<br>
                         Voici une liste exhaustive de ce qu’il faut apporter lors d’un voyage au Pérou <br>
- 
+
 Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - Des chaussures confortables - Un chapeau ou casquette - Des lunettes de soleil - Une veste imperméable de type Gore Tex - Des vêtements chauds pour les soirées, car avec l’altitude, la température chute vite - Une trousse à pharmacie - Un foulard ou cache cou - Shorts ou pantacourts
 
                       </div>
@@ -228,8 +228,8 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
                       <img class="img-responsive" src="img/per1.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
                         Meilleure saison, Vacances <br>
-                        Le Pérou est aussi constitué de régions aussi nombreuses que distinctes (côte, Andes, Amazonie) caractérisése par des climats très différents les uns des autres :  <br>  
-                        • Sur la côte, l’été austral (novembre à avril) affiche de fortes températures, tandis que l’hiver est plus frais (mais jamais froid) et marqué par des brumes matinales.  <br>  
+                        Le Pérou est aussi constitué de régions aussi nombreuses que distinctes (côte, Andes, Amazonie) caractérisése par des climats très différents les uns des autres :  <br>
+                        • Sur la côte, l’été austral (novembre à avril) affiche de fortes températures, tandis que l’hiver est plus frais (mais jamais froid) et marqué par des brumes matinales.  <br>
                         • Dans les Andes et en Amazonie, il existe deux saisons principales : la saison sèche (mai à octobre) et la saison humide (novembre à avril). S’il est tout à fait possible de voyager dans la région andine durant la saison des pluies, il est cependant fort déconseillé de randonner en montagne, où les chutes de neige rendant les sentiers dangereux.     <br>
                         • Dans les Andes, le temps peut être très changeant au cours d’une même journée. Nous vous conseillons donc de prévoir des vêtements variés, c'est-à-dire chauds pour les soirées fraîches, plus légers pour les journées souvent ensoleillés, et un vêtement de pluie.  <br><br>
 
@@ -321,7 +321,7 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
                       Santé et sécurité<br>
 
                         Généralités : Au Pérou, il est important de respecter quelques règles d’hygiène et de santé. Nous vous conseillons donc de :<br>
- 
+
                         • Ne pas boire l’eau du robinet, sauf si elle est bouillie ou purifiée à l’aide de pastilles. <br>
                         • Vous laver régulièrement les mains pour limiter les risques de contaminations. <br>
                         • Éviter la viande et le poisson achetés sur les marchés : préférez les restaurants pour goûter aux spécialités telles que le ceviche.  <br><br>
@@ -330,7 +330,7 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
                         • Diphtérie-tétanos-poliomyélite<br>
                         • Fièvre jaune (en cas de séjour en Amazonie, et qui est obligatoire en cas de séjour  au Vénézuela depuis el Pérou) <br>
                         • Grippe (recommandée pour les sujets les plus fragiles, de nombreux cas de grippe AH1N1 ayant été détectés au Pérou)<br><br>
- 
+
                         Séjour en Amazonie : En plus d’une vaccination contre la fièvre jaune, un traitement contre le paludisme peut être recommandé (consulter l’avis de votre médecin)  <br>
 
                       </div>
@@ -339,7 +339,7 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
                       <img class="img-responsive" src="img/bol1.jpg" width="100%;" alt="...">
                       <div> Que dois-je apporter? <br>
                         Voici une liste exhaustive de ce qu’il faut apporter lors d’un voyage au Pérou <br>
- 
+
 Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - Des chaussures confortables - Un chapeau ou casquette - Des lunettes de soleil - Une veste imperméable de type Gore Tex - Des vêtements chauds pour les soirées, car avec l’altitude, la température chute vite - Une trousse à pharmacie - Un foulard ou cache cou - Shorts ou pantacourts
                       </div>
                     </div>
@@ -347,8 +347,8 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
                       <img class="img-responsive" src="images/portfolio/peru.png" width="100%;" alt="...">
                       <div class="carousel-caption">
                         Meilleure saison, Vacances <br>
-                        Le Pérou est aussi constitué de régions aussi nombreuses que distinctes (côte, Andes, Amazonie) caractérisése par des climats très différents les uns des autres :  <br>  
-                        • Sur la côte, l’été austral (novembre à avril) affiche de fortes températures, tandis que l’hiver est plus frais (mais jamais froid) et marqué par des brumes matinales.  <br>  
+                        Le Pérou est aussi constitué de régions aussi nombreuses que distinctes (côte, Andes, Amazonie) caractérisése par des climats très différents les uns des autres :  <br>
+                        • Sur la côte, l’été austral (novembre à avril) affiche de fortes températures, tandis que l’hiver est plus frais (mais jamais froid) et marqué par des brumes matinales.  <br>
                         • Dans les Andes et en Amazonie, il existe deux saisons principales : la saison sèche (mai à octobre) et la saison humide (novembre à avril). S’il est tout à fait possible de voyager dans la région andine durant la saison des pluies, il est cependant fort déconseillé de randonner en montagne, où les chutes de neige rendant les sentiers dangereux.     <br>
                         • Dans les Andes, le temps peut être très changeant au cours d’une même journée. Nous vous conseillons donc de prévoir des vêtements variés, c'est-à-dire chauds pour les soirées fraîches, plus légers pour les journées souvent ensoleillés, et un vêtement de pluie.  <br><br>
 
@@ -466,7 +466,7 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
                 <h4>Grupo</h4>
                 <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
               </div>
-              
+
             </div>
           </div>
           <!--<div class="col-sm-3">
@@ -530,7 +530,7 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
       </div>
     </div>
 
-  </section><!--se acaba modulo de nosotros-->    
+  </section><!--se acaba modulo de nosotros-->
 
 
   <section id="twitter" class="parallax">
@@ -614,14 +614,14 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
                     @endfor
                 </ol>
                 <div class="carousel-inner">
-                    @for($i = 0; $i < count($testimonials); $i += 3) 
+                    @for($i = 0; $i < count($testimonials); $i += 3)
                     @if($i==0)
                     <div class="item active">
                     @else
                     <div class="item">
                     @endif
                     @if($i<count($testimonials))
-                    <div class="col-sm-4">    
+                    <div class="col-sm-4">
                     <div class="post-thumb">
                       <a href="#"><img class="img-responsive" src="{{$testimonials[$i]->photo}}" alt=""></a>
                       </div>
@@ -637,7 +637,7 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
                     @endif
                     @if($i+1<count($testimonials))
                         <div class="col-sm-4">
-                        
+
                     <div class="post-thumb">
                       <a href="#"><img class="img-responsive" src="{{$testimonials[$i+1]->photo}}" alt=""></a>
                       </div>
@@ -653,7 +653,7 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
                     @endif
                     @if($i+2<count($testimonials))
                         <div class="col-sm-4">
-                        
+
                     <div class="post-thumb">
                       <a href="#"><img class="img-responsive" src="{{$testimonials[$i+2]->photo}}" alt=""></a>
                       </div>
@@ -668,16 +668,16 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
                   </div>
                     @endif
                     </div>
-                    
+
                  @endfor
                 </div>
-                       
+
               </div>
 
             </div>
-          
+
           </div>
-          
+
 
       </div>
 
@@ -688,33 +688,33 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
 
     </div>
         <div class="heading text-center col-sm-8 col-sm-offset-2">
-<button 
-   type="button" 
-   class="btn btn-primary btn-lg" 
-   data-toggle="modal" 
+<button
+   type="button"
+   class="btn btn-primary btn-lg"
+   data-toggle="modal"
    data-target="#favoritesModal">
   Entrez votre témoignage
 </button>
 </div>
-<div class="modal fade" id="favoritesModal" 
-     tabindex="-1" role="dialog" 
+<div class="modal fade" id="favoritesModal"
+     tabindex="-1" role="dialog"
      aria-labelledby="favoritesModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" 
-          data-dismiss="modal" 
+        <button type="button" class="close"
+          data-dismiss="modal"
           aria-label="Close">
           <span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" 
+        <h4 class="modal-title"
         id="favoritesModalLabel">Entrez votre témoignage</h4>
       </div>
-             <div class="modal-body"> 
+             <div class="modal-body">
 
      <div style="padding:0 5 5 5">
           <h3>Entrez un témoignage</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
-        
+
                  <br>
           <form id="main2-contact-form" name="contact-form" method="post" action="{{ route('publictestimonials.store') }}" enctype="multipart/form-data">
              <?php $url = Request::path();?>
@@ -735,7 +735,7 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
                     <div class="form-group">
                       <input type="date" name="date" class="form-control" placeholder="Date" required="required" style="border: 2px solid #e6e6e6;">
                     </div>
-                           </div>   
+                           </div>
                     <div class="col-sm-6">
                     <div class="form-group">
                       <input type="text" name="nationality" class="form-control" placeholder="Nationalité" required="required" style="border: 2px solid #e6e6e6;">
@@ -745,14 +745,14 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
                               <div class="form-group">
      <select name="tour" class="form-control">
 
-        @foreach($tours as $tour) 
-        <option value="{{ $tour->id }}" selected="selected" > {{ $tour->title }} </option> 
+        @foreach($tours as $tour)
+        <option value="{{ $tour->id }}" selected="selected" > {{ $tour->title }} </option>
         @endforeach
          </div>
     </select>
-                  </div>   
+                  </div>
               </div>
-                
+
                      <div class="col-sm-6">
                         <div class="form-group">
                                 {!! Form::label('Iimagen', 'Imagen', ['class'=>'col-sm-2 control-label']) !!}
@@ -770,7 +770,7 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
                 </div>
               </form>
                  </div>
-     
+
 
  </div>
     </div>
@@ -819,7 +819,7 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
         <div class="row">
           <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
             <h2>Contient</h2>
-            
+
           </div>
         </div>
         <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms" style="padding-top: 5%;">
@@ -846,7 +846,7 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
                 <div class="form-group">
                   <input type="text" name="subject" class="form-control" placeholder="Pays" required="required">
                 </div>
-               
+
                 <div class="form-group">
                   <textarea name="message" id="message" class="form-control" rows="4" placeholder="Poste" required="required"></textarea>
                 </div>
@@ -857,7 +857,7 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
             </div>
             <div class="col-sm-6">
               <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            
+
                 <ul class="address">
                   <li><i class="fa fa-map-marker"></i> <span> Direcci&oacute;n:</span>Calle Turquezas E-11 Urb. Kenedy A - CUSCO - PERU </li>
                   <li><i class="fa fa-phone"></i> <span> Tel&eacute;fono:</span> 00 51 84 247277  </li>
@@ -879,7 +879,7 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
         </div>
         <div class="social-icons">
           <ul>
-            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li> 
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
             <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
             <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
           </ul>
@@ -897,6 +897,3 @@ Général : - Une valise ou un sac souple - Un sac à dos de 20 à 30 litres - D
     </div>
   </footer>
 @endsection
-
-
-
