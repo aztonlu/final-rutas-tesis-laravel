@@ -4,32 +4,13 @@
 @section('description', 'Tierras de los Andes: Agence de voyages et Tour opérateur péruvien spécialiste des voyages découverte, aventure, randonnée et trekking en petit groupe et sur mesure')
 
 @section('translate')
-    <div class="top-header">
-
-        <div class="wrap-top">
-
-            <div class="info-top pull-left">
-              
-                <<small class="top-element"><strong><a href="#">Info: terandes@terandes.com</a></strong></small>
-                <small class="top-element"><a href="#">Rufen Sie uns an: 00 51 84 247277</a></small>
-            </div>
-
-            <div class="language-top pull-right">
-                <small class="top-element-language">Langue:</small>
-                <a class="route-language" href="{{url('')}}"><img class="img-lng" src="{{url('')}}/img/lng/fr.png" alt="Idioma"></a>
-                <a class="route-language" href="{{url('')}}/en"><img class="img-lng" src="{{url('')}}/img/lng/en.png" alt="Idioma"></a>
-                <a class="route-language" href="{{url('')}}/es"><img class="img-lng" src="{{url('')}}/img/lng/es.png" alt="Idioma"></a>
-                <a class="route-language" href="{{url('')}}/de"><img class="img-lng" src="{{url('')}}/img/lng/de.png" alt="Idioma"></a>
-                <a class="route-language" href="{{url('')}}/it"><img class="img-lng" src="{{url('')}}/img/lng/it.png" alt="Idioma"></a>
-            </div>
-
-        </div>
-
-    </div>
+    
 @endsection
 
 @section('content')
-<section id="NosVoyages" class="showcase">
+
+
+<!--<section id="NosVoyages" class="showcase">
 
     <div class="container">
 
@@ -40,8 +21,8 @@
               <img src="images/descubrir.png" style="width: 70px; height: 90px">
             </div>
             <div class="service-info">
-              <h3><a href="{{url('')}}/de/tours/decouverte/Discover">Entdeckung </a> </h3>
-              <p>Entdecken Sie das Land und seine Unausweichlichkeiten in aller Einfachheit</p>
+              <h3><a href="{{url('')}}/fr/tours/decouverte/Discover">Découverte </a> </h3>
+              <p>Découvrir Le pays et ses incontournables en toute simplicité</p>
             </div>
                     </div>
         <div class="col-sm-4">
@@ -49,8 +30,8 @@
               <img src="images/aventura.png" style="width: 90px; height: 90px">
             </div>
             <div class="service-info">
-                <h3><a href="{{url('')}}/de/tours/decouverte/Aventure">Abenteuer</a></h3>
-              <p>Für diejenigen, die trekking an Orten noch authentisch und wild lieben</p>
+                <h3><a href="{{url('')}}/fr/tours/decouverte/Aventure">Aventure</a></h3>
+              <p>Pour ceux qui aiment les trekkings dans des lieux encore autentiques et sauvages</p>
             </div>
                     </div>
                     <div class="col-sm-4">
@@ -58,96 +39,111 @@
               <img src="images/Alta_montana.png" style="width: 90px; height: 90px">
             </div>
             <div class="service-info">
-                <h3><a href="{{url('')}}/de/tours/decouverte/High-Mountain">Hoher Berg</a></h3>
-              <p>Für Liebhaber von hohen Gipfeln und neuen Herausforderungen</p>
+                <h3><a href="{{url('')}}/fr/tours/decouverte/High-Mountain">Haute montagne</a></h3>
+              <p>Pour les  amoureux des hauts sommets et des nouveaux défis</p>
             </div>
                   </div>
                   </div>
                      <div class="row">
 
-                    <!--<div class="col-sm-4">
-               <div class="service-icon">
-              <i class="fa fa-camera-retro"></i>
-            </div>
+                    
+                <div class="col-sm-12">
+                 <div>
+                  <img src="images/excursiones2.png" style="width: 140px; height: 100px">
+                </div>
             <div class="service-info">
-              <h3>Descubrir</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-            </div>
-                  </div>-->
-                              <div class="col-sm-12">
-               <div>
-              <img src="images/excursiones2.png" style="width: 140px; height: 100px">
-            </div>
-            <div class="service-info">
-                <h3><a href="{{url('')}}/de/tours/decouverte/Excursions">Ausflüge</a></h3>
-              <p>Besuche in den 4 Ecken von Peru</p>
+                <h3><a href="{{url('')}}/fr/tours/decouverte/Excursions">Excursions</a></h3>
+              <p>Des visites dans les 4 coins du Pérou</p>
             </div>
                   </div>
-                              <!--<div class="col-sm-4">
-               <div class="service-icon">
-              <i class="fa fa-camera-retro"></i>
-            </div>
-            <div class="service-info">
-              <h3>Descubrir</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-            </div>-->
+                              
                   </div>
                   </div>
                   </div>
 
     </div>
 
-</section>
-<section id="about-us" class="parallax">
+</section>-->
+<section id="imagenes-ferias" class="parallax" style="color: #4b4b4b" "padding-top:10px; padding-bottom: 10px">
+    
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
-          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2>Die</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
+      	<h2 align="center" style="color: #4b4b4b">Blog</h2>
+      	 <br>
+      	 <h4><p align="center" style="color: #4b4b4b">Andenländer werden auf der International Tourism Travel Show präsentiert, die am 20., 21. und 22. Oktober in Montreal, Kanada stattfinden wird!</p></h4>
+    	<br>
+        
+        <div class="col-sm-12">
+        	<center>
+        		<a href="{{ URL::to('http://www.salontourismevoyages.com/') }}"><img src="img/feria1.jpg" class="img-rounded"></a>
+          		<h3 style="color: #4b4b4b">20 - 21 - 22 Octobre 2017</h3>
+            	<a href="{{ URL::to('http://www.google.com') }}" p> Internationale Reise-Tourismus-Show (Montreal, Kanada)</p></a>
+        	</center>
         </div>
-        <div class="col-sm-6">
-          <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-            <div>
-              <img src="images/en_grupo.jpg" style="width:90px; height: 90px">
-            </div>
-            <div class="service-info">
-              <h3>In der Gruppe</h3>
-              <p>Eine Reise, die alle befriedigen wird</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-            <div>
-              <img src="images/en_familia.jpg" style="width:90px; height: 90px">
-            </div>
-            <div class="service-info">
-              <h3>Familie</h3>
-              <p>Nutzen Sie die passende Reise für Erwachsene und Jugendliche</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-            <div>
-              <img src="images/en_pareja.jpg" style="width:90px; height: 90px">
-            </div>
-            <div class="service-info">
-              <h3>Paar</h3>
-              <p>Teilen Sie unvergessliche Momente mit Ihrem Partner</p>
-            </div>
-          </div>
-          </div>
-        </div>
+        
+        
+        
       </div>
     </div>
   </section>
+  
+  
+<section id="about-us" class="parallax" style="color: #4b4b4b" "padding-top:10px; padding-bottom: 10px">
+    <br>
+    <br>
+    
+    <div class="container">
+      <div class="row">
+      	<h2 align="center" style="color: #4b4b4b">Wie du gehst</h2>
+      	 <br>
+    	<br>
+        <div class="col-sm-3">
+        	<center>
+        		<a href="{{url('')}}/fr/tours/Group"><img src="{{url('')}}/img/grupo1icono.png" class="img-rounded">
+          		<h3 style="color: #4b4b4b">In der Gruppe</h3></a>
+            	<p>Eine Reise, die alle befriedigen wird</p>
+        	</center>
+        </div>
+        <div class="col-sm-3">
+        	<center>
+        		<a href="{{url('')}}/fr/tours/Family"><img src="{{url('')}}/img/familia1icono.png" class="img-rounded">
+          		<h3 style="color: #4b4b4b">Familie</h3></a>
+            	<p>Nutzen Sie die passende Reise für Erwachsene und Jugendliche</p>
+        	</center>
+        </div>
+        <div class="col-sm-3">
+        	<center>
+        		<a href="{{url('')}}/fr/tours/Couple"><img src="{{url('')}}/img/couple1icono.png" class="img-rounded">
+          		<h3 style="color: #4b4b4b">Paar</h3></a>
+            	<p>Partagez des moments inoubliables avec votre partenaire</p>
+        	</center>
+        </div>
+        <div class="col-sm-3">
+        	<center>
+        		<a href="{{url('')}}/fr/tours/Friends"><img src="{{url('')}}/img/amigos1icono.png" class="img-rounded">
+          		<h3 style="color: #4b4b4b">Unter Freunden</h3></a>
+            	<p>Teilen Sie unvergessliche Momente mit Ihrem Partner</p>
+        	</center>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+
+
+
   <section id="portfolio" style="padding-top:0px; padding-bottom: 0px">
+      <br>
+      <br>
+      <br>
+      <br>
     <div class="container">
       <div class="row">
         <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
           <h2>Bereiten Sie Ihre Reise vor</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+          <br>
         </div>
       </div>
     </div>
@@ -156,7 +152,7 @@
         <div class="col-sm-6">
           <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="folio-image">
-              <img class="img-responsive" src="img/5.jpg" alt="">
+              <img class="img-responsive" src="img/peru_portada.jpg" alt="">
             </div>
             <div class="overlay">
               <div class="overlay-content">
@@ -186,9 +182,11 @@
                 <!-- Wrapper for slides -->
                   <div class="carousel-inner">
                     <div class="item active">
-                     <img class="img-responsive" src="img/4.jpg" width="100%;" alt="...">
+                     <img class="img-responsive" src="img/peru1.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
-                        Allgemeine Informationen über Peru ist: </p> <br>
+                        Informations générales <br>
+                        <p align="center"> Allgemeine Informationen über Peru ist:</p> <br>
+                         </p> <br>
                          • Eine Bevölkerung von etwa 30 Millionen. <br>
                          • Netto-Bankertrag von 301,5 Milliarden US-Dollar im Jahr 2011. <br>
                          • Eine Gesamtfläche von 1.285.220 km², dreimal so groß wie Frankreich. <br>
@@ -197,14 +195,15 @@
                          • Ein Land mit dem Gipfel des Berges Huascarán auf 6768 Meter über dem Meeresspiegel. <br>
                          <br>
                          Ein besonderes Reiseziel: <br>
-                         • Peru hat 28 der 31 Klimas auf dem Planeten (in einigen Landesteilen herrscht das ganze Jahr über ein sonniges Wetter) • 84 der 104 Ökosysteme der Welt sind in Peru vertreten. <br>
+                         • Peru hat 28 der 31 Klimas auf dem Planeten (in einigen Landesteilen herrscht das ganze Jahr über ein sonniges Wetter) • 84 der 104 Ökosysteme der Welt sind in Peru vertreten.  <br></p>
                       </div>
                     </div>
                     <div class="item">
-                      <img class="img-responsive" src="img/4.jpg" width="100%;" alt="...">
+                      <img class="img-responsive" src="img/peru2.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
-                        Gesundheit und Sicherheit <br>
-                        Allgemein: In Peru ist es wichtig, einige Regeln für Hygiene und Gesundheit einzuhalten. Wir beraten Sie:
+                        Gesundheit und Sicherheit<br>
+
+                        Allgemein: In Peru ist es wichtig, einige Regeln für Hygiene und Gesundheit einzuhalten. Wir beraten Sie:
  
                         • Trinken Sie kein Leitungswasser, außer es wird gekocht oder mit Pellets gereinigt. <br>
                         • Waschen Sie Ihre Hände regelmäßig, um das Risiko einer Kontamination zu verringern. <br>
@@ -213,38 +212,36 @@
                         Impfstoffe: Um aus Frankreich nach Peru einzureisen, ist kein Impfstoff erforderlich. Einige werden jedoch empfohlen: <br>
                         • Diphtherie-Tetanus-Poliomyelitis <br>
                         • Gelbfieber (Aufenthalt im Amazonasgebiet, obligatorisch bei einem Aufenthalt in Venezuela aus Peru) <br>
-                        • Influenza (empfohlen für die zerbrechlichsten Personen, viele Fälle von Influenza AH1N1 in Peru) <br> <br>
- 
-                        Aufenthalt in Amazonien: Zusätzlich zur Gelbfieberimpfung kann eine Behandlung gegen Malaria empfohlen werden (siehe Rat Ihres Arztes) <br>
+                        • Influenza (empfohlen für die zerbrechlichsten Personen, viele Fälle von Influenza AH1N1 in Peru) <br>
 
                       </div>
                     </div>
                      <div class="item">
-                      <img class="img-responsive" src="img/4.jpg" width="100%;" alt="...">
+                      <img class="img-responsive" src="img/peru3.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
-                        Was sollte ich mitbringen?
-                         Hier ist eine erschöpfende Liste von was während einer Reise nach Peru zu bringen ist <br>
+                        Was sollte ich mitbringen?<br>
+                        Hier ist eine erschöpfende Liste von was während einer Reise nach Peru zu bringen ist <br>
  
 Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Liter - Bequeme Schuhe - Ein Hut oder eine Kappe - Sonnenbrille - Eine wasserdichte Gore Tex Jacke - Warme Kleidung für die Abende mit Höhe, Temperatur sinkt schnell - Ein Apotheke-Kit - Ein Schal oder Hals-Cover - Shorts oder pantacourts
+
                       </div>
                     </div>
                     <div class="item">
-                      <img class="img-responsive" src="img/4.jpg" width="100%;" alt="...">
+                      <img class="img-responsive" src="img/peru1.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
-                       Beste Jahreszeit, Feiertage <br>
-                        Peru besteht auch aus so unterschiedlichen Regionen (Küste, Anden, Amazonien), die sich durch sehr unterschiedliche Klimate auszeichnen: <br>
+                        Beste Jahreszeit, Feiertage <br>
+                        Peru besteht auch aus so unterschiedlichen Regionen (Küste, Anden, Amazonien), die sich durch sehr unterschiedliche Klimate auszeichnen: <br>
                         • An der Küste zeigt der Südsommer (November bis April) hohe Temperaturen, während der Winter kühler (aber nie kalt) ist und von Morgennebel geprägt ist. <br>
                         • In den Anden und Amazonien gibt es zwei Hauptsaisons: die Trockenzeit (Mai bis Oktober) und die Regenzeit (November bis April). Wenn es während der Regenzeit möglich ist, in der Andenregion zu reisen, ist es nicht ratsam, in den Bergen zu wandern, wo Schneefälle die Wege gefährlich machen. <br>
-                        • In den Anden kann das Wetter im Laufe eines Tages sehr variabel sein. Wir empfehlen Ihnen deshalb, verschiedene Kleidung, das heißt warm für die kühlen Abende, heller für Tage oft sonnig und eine Regenkleidung zu bieten. <br>
+                        • In den Anden kann das Wetter im Laufe eines Tages sehr variabel sein. Wir empfehlen Ihnen deshalb, verschiedene Kleidung, das heißt warm für die kühlen Abende, heller für Tage oft sonnig und eine Regenkleidung zu bieten. <br></p>
 
-                         Da Peru dem Äquator sehr nahe ist, ist die Sonne vertikal und stark. Dieses Phänomen wird durch die Höhe stark verstärkt. Vergessen Sie nicht, einen Hut, Sonnencreme und Sonnenbrille mit einem hohen Schutz zu tragen.</p>
                       </div>
                     </div>
                     <div class="item">
-                      <img class="img-responsive" src="img/4.jpg" width="100%;" alt="...">
+                      <img class="img-responsive" src="img/peru2.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
-                        Praktische Informationen <br>
-                        ZEITUNTERSCHIED Von März bis Oktober (Sommerzeit), dauert es Ihre Uhr 7 Stunden in Peru und 6 Stunden von November bis Februar Ankunft zurück. <br>
+                        Praktische Informationen<br>
+                        ZEITUNTERSCHIED Von März bis Oktober (Sommerzeit), dauert es Ihre Uhr 7 Stunden in Peru und 6 Stunden von November bis Februar Ankunft zurück. <br>
                         STROM Spannung: 110 / 220V
                         Frequenz: 50/60 Hertz Steckdosen in Peru sind von zwei Arten: TELEFON UND TELEKOMMUNIKATION Es ist sehr einfach, mit Freunden oder der Familie aus Peru zu kommunizieren, Telefonzellen sind viele, und sehr gute Internet-Abdeckung. <br>
                         So rufen Peru nach Frankreich: 00 + 33 + Nummer (ohne die erste 0). <br>
@@ -254,6 +251,7 @@ Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Li
                         MAIL <br>
 
                         Sie finden Postfächer in jedem Flughafen und in der überwiegenden Mehrheit der Hotels. Wir empfehlen jedoch, die zentralen Stationen vorzuziehen. Es dauert mindestens 10 Tage für den Empfänger einen Brief von Lima zu erhalten. <br>
+
                       </div>
                     </div>
                   </div>
@@ -293,21 +291,22 @@ Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Li
             </div>
           </div>
         </div>
-        <div class="modal fade bs-example-modalBoliva-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal fade bs-example-modalBoliva-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel1" aria-hidden="true">
           <div class="modal-dialog modal-lg">
             <div class="modal-header" style="background-color: #2a6f14">
                       <button type="button" data-dismiss="modal" align="rigth" style="border-color: transparent;background-color: transparent; color: #fff">&times;</button>
                       <h3 align="center" style="color: #fff; margin-top: 0px;">Informations générales Bolivia</h3>
                   </div>
             <div class="modal-content">
-              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <div id="carousel-example-generic-bolvia" class="carousel slide" data-ride="carousel">
                 <!-- Wrapper for slides -->
                   <div class="carousel-inner">
                     <div class="item active">
-                     <img class="img-responsive" src="img/11.jpg" width="100%;" alt="...">
+                     <img class="img-responsive" src="img/bolivia_portada.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
-                        Allgemeine Informationen über Peru ist: </p> <br>
-                         • Eine Bevölkerung von etwa 30 Millionen. <br>
+                        Informations générales <br>
+                        <p align="center"> Allgemeine Informationen über Peru ist:</p> <br>
+                        • Eine Bevölkerung von etwa 30 Millionen. <br>
                          • Netto-Bankertrag von 301,5 Milliarden US-Dollar im Jahr 2011. <br>
                          • Eine Gesamtfläche von 1.285.220 km², dreimal so groß wie Frankreich. <br>
                          • 2414 km Küste. <br>
@@ -315,14 +314,15 @@ Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Li
                          • Ein Land mit dem Gipfel des Berges Huascarán auf 6768 Meter über dem Meeresspiegel. <br>
                          <br>
                          Ein besonderes Reiseziel: <br>
-                         • Peru hat 28 der 31 Klimas auf dem Planeten (in einigen Landesteilen herrscht das ganze Jahr über ein sonniges Wetter) • 84 der 104 Ökosysteme der Welt sind in Peru vertreten. <br>
+                         • Peru hat 28 der 31 Klimas auf dem Planeten (in einigen Landesteilen herrscht das ganze Jahr über ein sonniges Wetter) • 84 der 104 Ökosysteme der Welt sind in Peru vertreten. <br></p>
                       </div>
                     </div>
                     <div class="item">
-                      <img class="img-responsive" src="img/11.jpg" width="100%;" alt="...">
+                      <img class="img-responsive" src="img/bolivia1.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
-                         Gesundheit und Sicherheit <br>
-                        Allgemein: In Peru ist es wichtig, einige Regeln für Hygiene und Gesundheit einzuhalten. Wir beraten Sie:
+                      Gesundheit und Sicherheit<br>
+
+                        Allgemein: In Peru ist es wichtig, einige Regeln für Hygiene und Gesundheit einzuhalten. Wir beraten Sie:
  
                         • Trinken Sie kein Leitungswasser, außer es wird gekocht oder mit Pellets gereinigt. <br>
                         • Waschen Sie Ihre Hände regelmäßig, um das Risiko einer Kontamination zu verringern. <br>
@@ -331,35 +331,32 @@ Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Li
                         Impfstoffe: Um aus Frankreich nach Peru einzureisen, ist kein Impfstoff erforderlich. Einige werden jedoch empfohlen: <br>
                         • Diphtherie-Tetanus-Poliomyelitis <br>
                         • Gelbfieber (Aufenthalt im Amazonasgebiet, obligatorisch bei einem Aufenthalt in Venezuela aus Peru) <br>
-                        • Influenza (empfohlen für die zerbrechlichsten Personen, viele Fälle von Influenza AH1N1 in Peru) <br> <br>
- 
-                        Aufenthalt in Amazonien: Zusätzlich zur Gelbfieberimpfung kann eine Behandlung gegen Malaria empfohlen werden (siehe Rat Ihres Arztes) <br>
+                        • Influenza (empfohlen für die zerbrechlichsten Personen, viele Fälle von Influenza AH1N1 in Peru) <br> 
+
                       </div>
                     </div>
                      <div class="item">
-                      <img class="img-responsive" src="img/11.jpg" width="100%;" alt="...">
+                      <img class="img-responsive" src="img/bolivia2.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
-                        Was sollte ich mitbringen?
-                         Hier ist eine erschöpfende Liste von was während einer Reise nach Peru zu bringen ist <br>
- 
-Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Liter - Bequeme Schuhe - Ein Hut oder eine Kappe - Sonnenbrille - Eine wasserdichte Gore Tex Jacke - Warme Kleidung für die Abende mit Höhe, Temperatur sinkt schnell - Ein Apotheke-Kit - Ein Schal oder Hals-Cover - Shorts oder pantacourts
+                      <div> Was sollte ich mitbringen?<br>
+                         Hier ist eine erschöpfende Liste von was während einer Reise nach Peru zu bringen ist<br>
+                         
+                        Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Liter - Bequeme Schuhe - Ein Hut oder eine Kappe - Sonnenbrille - Eine wasserdichte Gore Tex Jacke - Warme Kleidung für die Abende mit Höhe, Temperatur sinkt schnell - Ein Apotheke-Kit - Ein Schal oder Hals-Cover - Shorts oder pantacourts
                       </div>
                     </div>
                     <div class="item">
-                      <img class="img-responsive" src="img/11.jpg" width="100%;" alt="...">
+                      <img class="img-responsive" src="img/bolivia3.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
                         Beste Jahreszeit, Feiertage <br>
                         Peru besteht auch aus so unterschiedlichen Regionen (Küste, Anden, Amazonien), die sich durch sehr unterschiedliche Klimate auszeichnen: <br>
                         • An der Küste zeigt der Südsommer (November bis April) hohe Temperaturen, während der Winter kühler (aber nie kalt) ist und von Morgennebel geprägt ist. <br>
-                        • In den Anden und Amazonien gibt es zwei Hauptsaisons: die Trockenzeit (Mai bis Oktober) und die Regenzeit (November bis April). Wenn es während der Regenzeit möglich ist, in der Andenregion zu reisen, ist es nicht ratsam, in den Bergen zu wandern, wo Schneefälle die Wege gefährlich machen. <br>
-                        • In den Anden kann das Wetter im Laufe eines Tages sehr variabel sein. Wir empfehlen Ihnen deshalb, verschiedene Kleidung, das heißt warm für die kühlen Abende, heller für Tage oft sonnig und eine Regenkleidung zu bieten. <br>
+                        • In den Anden und Amazonien gibt es zwei Hauptsaisons: die Trockenzeit (Mai bis Oktober) und die Regenzeit (November bis April). Wenn es während der Regenzeit möglich ist, in der Andenregion zu reisen, ist es nicht ratsam, in den Bergen zu wandern, wo Schneefälle die Wege gefährlich machen. <br></p>
                       </div>
                     </div>
                     <div class="item">
-                      <img class="img-responsive" src="img/11.jpg" width="100%;" alt="...">
+                      <img class="img-responsive" src="img/boivia1.png" width="100%;" alt="...">
                       <div class="carousel-caption">
-                         Praktische Informationen <br>
-                        ZEITUNTERSCHIED Von März bis Oktober (Sommerzeit), dauert es Ihre Uhr 7 Stunden in Peru und 6 Stunden von November bis Februar Ankunft zurück. <br>
+                       ZEITUNTERSCHIED Von März bis Oktober (Sommerzeit), dauert es Ihre Uhr 7 Stunden in Peru und 6 Stunden von November bis Februar Ankunft zurück. <br>
                         STROM Spannung: 110 / 220V
                         Frequenz: 50/60 Hertz Steckdosen in Peru sind von zwei Arten: TELEFON UND TELEKOMMUNIKATION Es ist sehr einfach, mit Freunden oder der Familie aus Peru zu kommunizieren, Telefonzellen sind viele, und sehr gute Internet-Abdeckung. <br>
                         So rufen Peru nach Frankreich: 00 + 33 + Nummer (ohne die erste 0). <br>
@@ -371,14 +368,13 @@ Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Li
                         Sie finden Postfächer in jedem Flughafen und in der überwiegenden Mehrheit der Hotels. Wir empfehlen jedoch, die zentralen Stationen vorzuziehen. Es dauert mindestens 10 Tage für den Empfänger einen Brief von Lima zu erhalten. <br>
                       </div>
                     </div>
-
                   </div>
 
                   <!-- Controls -->
-                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <a class="left carousel-control" href="#carousel-example-generic-bolvia" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left"></span>
                   </a>
-                  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <a class="right carousel-control" href="#carousel-example-generic-bolvia" role="button" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right"></span>
                   </a>
               </div>
@@ -392,8 +388,18 @@ Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Li
       <div id="portfolio-single">
       </div>
     </div><!-- /#portfolio-single-wrap -->
-  </section><!--/#portfolio-->
+  </section>
+
+
+
+
+
   <section id="team" style="padding-top: 0px">
+      <br>
+      <br>
+      <br>
+      <br>
+      
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
@@ -417,7 +423,9 @@ Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Li
       <div class="row">
         <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
           <h2>Das Team Tierras de los Andes <a href="{{url('')}}/tours/decouverte/le-perou-en-famille"></a></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+          <br>
+          <p> Erfahrung und Begeisterung zu schaffen und bieten Ihnen die originellsten Reisen nach Peru. Wir arbeiten aus dem Herzen der Anden, Cusco, wo unser Hauptsitz befindet</p>
+          <br><br>
         </div>
       </div>
       <!--<div class="team-members">
@@ -452,23 +460,15 @@ Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Li
           @endforeach
         </div>-->
 
-          <div class="col-sm-6">
+          <div class="col-sm-12">
             <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
               <div class="member-image">
-                <img class="img-responsive" src="images/team/persona.png" alt="">
+                <img class="img-responsive" src="img/gruponuevo4.gif" alt="">
               </div>
               <div class="member-info">
-                <h3>imagen grupo</h3>
-                <h4>Grupo</h4>
-                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                
               </div>
-              <div class="social-icons">
-                <ul>
-                  <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-              </div>
+              
             </div>
           </div>
           <!--<div class="col-sm-3">
@@ -534,7 +534,11 @@ Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Li
 
   </section><!--se acaba modulo de nosotros-->    
 
-<section id="twitter" class="parallax">
+  <div class="heading text-center col-sm-8 col-sm-offset-2">
+<h2>Blog</h2>
+</div>
+  <section id="twitter" class="parallax">
+     
     <div id="blogspace">
       <a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev" style="margin-top: -220px;"><i class="fa fa-angle-left"></i></a>
       <a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next" style="margin-top: -220px;"><i class="fa fa-angle-right"></i></a>
@@ -567,11 +571,16 @@ Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Li
     </div>
   </section><!--/#blog-->
   <section id="testimonial" style="padding-top: 0px; padding-bottom: 0px">
+      
+      <br>
+      <br>
+      <br>
+      <br>
     <div class="container">
       <div class="row">
         <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
           <h2>Über uns</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+          <p>Reiseerfahrungen mit uns teilen</p>
         </div>
       </div>
      <!-- <div class="blog-posts">
@@ -678,23 +687,7 @@ Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Li
             </div>
           
           </div>
-          <!--<div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
-            <div class="post-thumb">
-              <a href="#"><img class="img-responsive" src="images/blog/blog3.png" alt=""></a>
-              </div>
-            <div class="entry-header">
-              <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
-              <span class="date">Setiembre 22, 2017</span>
-              <span class="cetagory">en <strong>Aventura</strong></span>
-            </div>
-            <div class="entry-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            </div>
-          </div>
-        </div>-->
-        <!--<div class="load-more wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
-          <a href="#" class="btn-loadmore"><i class="fa fa-repeat"></i> Cargar m&aacute;s</a>
-        </div>-->
+          
 
       </div>
 
@@ -705,6 +698,7 @@ Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Li
 
     </div>
         <div class="heading text-center col-sm-8 col-sm-offset-2">
+            <br><br>
 <button 
    type="button" 
    class="btn btn-primary btn-lg" 
@@ -729,8 +723,8 @@ Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Li
              <div class="modal-body"> 
 
      <div style="padding:0 5 5 5">
-          <h3>Geben Sie Ihre Aussage ein</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+          <h3>Geben Sie eine Testimonial ein</h3>
+          <p></p>
         
                  <br>
           <form id="main2-contact-form" name="contact-form" method="post" action="{{ route('publictestimonials.store') }}" enctype="multipart/form-data">
@@ -780,10 +774,149 @@ Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Li
                     </div>
                   </div>
                 <div class="form-group">
-                  <textarea name="testimonial" id="testimonial" class="form-control" rows="4" placeholder="Ingrese su Testimonio" style="border: 2px solid #e6e6e6;" required="required"></textarea>
+                  <textarea name="testimonial" id="testimonial" class="form-control" rows="4" placeholder="Geben Sie Ihre Aussage ein" style="border: 2px solid #e6e6e6;" required="required"></textarea>
+                </div><br><br>
+                <div class="form-group">
+                  <button type="" class="btn-submit">Jetzt senden</button>
+                </div>
+              </form>
+                 </div>
+     
+<br>
+ </div>
+    </div>
+</div>
+
+
+
+
+
+
+  </section><!--/#testimonial-->
+
+  <div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_default_style" style="bottom:150px;">
+    <a class="a2a_button_facebook"></a><br>
+    <a class="a2a_button_twitter"></a><br>
+    <a class="a2a_button_google_plus"></a><br>
+    <a class="a2a_button_pinterest"></a><br>
+</div>
+
+<section id="map-section" style="padding-top: 10%;">
+    <br>
+    
+      <center>
+        <h2>Contient</h2>
+      </center>
+      <br>
+      
+      <div class="col-sm-12">
+          
+          
+          <div class="col-sm-6">
+            
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <center>
+                   <div id="google-map" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms"></div> 
+                </center>
+              </div>
+              <div class="panel-footer" style="color: #000;">
+                <p> Anschrift: Calle Turquezas E-11 Urb. Kenedy A - CUSCO - PERU</p>
+                <p> Telefonnummer: 00 51 84 247277</p>
+                <p> Email: <a href="#"> terandes@terandes.com</a></p>
+              </div>
+            </div>
+            
+            
+          </div>
+
+          <div class="col-sm-6">
+            
+            <div class="panel panel-default">
+              <div class="panel-body">
+                
+                  <div id="google-map1" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
+                
+              </div>
+              <div class="panel-footer" style="color: #000;">
+                <p> Anschrift: Calle Bolivar 221 Oficina 4 1er piso Miraflores - LIMA - PERU</p>
+                <p> Telefonnummer: 00 51 1 2434475</p>
+                <p> Email: <a href="#"> terandes@terandes.com</a></p>
+              </div>
+            </div>
+            
+            
+          </div>
+
+          
+      </div>
+      <div class="heading text-center col-sm-8 col-sm-offset-2">
+<button 
+   type="button" 
+   class="btn btn-primary btn-lg" 
+   data-toggle="modal" 
+   data-target="#contactModal">
+  Nous Contacter
+</button>
+</div>
+      
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+</section>
+
+
+<div class="modal fade" id="contactModal" 
+     tabindex="-1" role="dialog" 
+     aria-labelledby="favoritesModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" 
+          data-dismiss="modal" 
+          aria-label="Close">
+          <span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" 
+        id="favoritesModalLabel">Kontaktieren Sie uns</h4>
+      </div>
+             <div class="modal-body"> 
+
+     <div style="padding:0 5 5 5">
+          <h3>Kontaktieren Sie uns</h3>
+          <p></p>
+        
+                 <br>
+          <form id="main2-contact-form" name="contact-form" method="post" action="{{ route('publictestimonials.store') }}" enctype="multipart/form-data">
+             <?php $url = Request::path();?>
+              <input type="hidden" name="language" value="{{$url}}">
+              <input type="hidden" name="status" value="disapproved">
+              <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" name="name" class="form-control" placeholder="Nom" required="required" style="border: 2px solid #e6e6e6;">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="email" name="email" class="form-control" placeholder="Email" required="required" style="border: 2px solid #e6e6e6;">
+                    </div>
+                  </div>
+                     
+                    <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" name="nationality" class="form-control" placeholder="Nationalité" required="required" style="border: 2px solid #e6e6e6;">
+                    </div>
+                  </div>
+                      
+              </div>
+                
+                     
+                  </div>
+                <div class="form-group">
+                  <textarea name="testimonial" id="testimonial" class="form-control" rows="4" placeholder="Nous Contacter" style="border: 2px solid #e6e6e6;" required="required"></textarea>
                 </div>
                 <div class="form-group">
-                  <button type="submit" class="btn-submit">Jetzt senden</button>
+                  <button type="" class="btn-submit">Envoyer</button>
                 </div>
               </form>
                  </div>
@@ -792,108 +925,156 @@ Allgemein: - Eine Tasche oder eine weiche Tasche - Ein Rucksack von 20 bis 30 Li
  </div>
     </div>
 </div>
-  </section><!--/#testimonial-->
 
-  <div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_default_style" style="bottom:0px; right:0px;">
-    <a class="a2a_button_facebook"></a>
-    <a class="a2a_button_twitter"></a>
-    <a class="a2a_button_google_plus"></a>
-    <a class="a2a_button_pinterest"></a>
-</div>
 
-<section id="map-section" style="padding-top: 10%;">
-  <div class="col-sm-12">
-      <div class="col-sm-6">
-        <div id="google-map" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
-      </div>
-      <div class="col-sm-6">
-        <div id="google-map1" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms" style="width: 100%;"></div>
-      </div>
-    </div>
-</section>
-<section id="contact" style="padding-top: 10%;">
-    <div id="contact-us" class="parallax">
-      <div class="container">
-        <div class="row">
-          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2>Enthält</h2>
+
+
+<style>
+  h4{
+    color: #fff;
+    
+  }
+  a{
+    color: #000;
+  }
+  a:hover{
+    color: #018416;
+  }
+  .panel-footer{
+    background-color: #e6ece7;
+  }
+  ul#menu li {
+    display:inline;
+}
+footer{
+  background-color: rgb(16,54,9);
+}
+</style>
+
+
+
+<!--inicio del footer-->
+
+ <footer >
             
-          </div>
-        </div>
-        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms" style="padding-top: 5%;">
-          <div class="row">
-            <div class="col-sm-6">
-              <form id="main2-contact-form" name="contact-form" method="post" action="#">
-                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="text" name="name" class="form-control" placeholder="Nom complet" required="required">
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="email" name="email" class="form-control" placeholder="Email" required="required">
-                    </div>
-                  </div>
-                   <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="email" name="email" class="form-control" placeholder="Téléphone" required="required">
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="text" name="subject" class="form-control" placeholder="Pays" required="required">
-                </div>
-               
-                <div class="form-group">
-                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Poste" required="required"></textarea>
-                </div>
-                <div class="form-group">
-                  <button type="submit" class="btn-submit">Enviar ahora</button>
-                </div>
-              </form>
-            </div>
-            <div class="col-sm-6">
-              <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            
-                <ul class="address">
-                  <li><i class="fa fa-map-marker"></i> <span> Direcci&oacute;n:</span>Calle Turquezas E-11 Urb. Kenedy A - CUSCO - PERU </li>
-                  <li><i class="fa fa-phone"></i> <span> Tel&eacute;fono:</span> 00 51 84 247277  </li>
-                  <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:terandes@terandes.com"> terandes@terandes.com</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!--/#contact-->
-
- <footer id="footer">
-    <div class="footer-top wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;background-color: #0e4817">
+    <div class="footer-top wow fadeInUp animated" style="padding-top: 0px;" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;background-color: rgb(13,52,14)">
+        
+           <!-- 
       <div class="container text-center">
-        <div class="footer-logo">
-          <a href="index.html"><img class="img-responsive" src="http://localhost:8000/img/terandes-logo.png" alt=""></a>
-        </div>
-        <div class="social-icons">
-          <ul>
-            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li> 
-            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="container">
         <div class="row">
-          <div class="col-sm-6">
-            <p style="color: #0e4817">© 2017 TerAndes.</p>
+          
+       
+        <div class="col-lg-18">
+          <div class="col-sm-2" style="padding-top: 10%; padding-rigth:1pt">
+            
+              <a href="#"><img height="160%" width="160%" src="img/terandes-logo.png"  ></a>
+            
+          </div>
+          
+          <div class="col-sm-6" style="padding-left:2cm">
+            <div class="col-sm-12">
+              <h4>TOURS</h4>
+            </div>
+            <div class="col-sm-6" >
+              <h4>Aventure</h4>
+              <img src="images/Aventura.jpg" height="60%" width="60%" class="img-circle">
+            </div>
+            <div class="col-sm-6">
+              <h4>Haute Montagne</h4>
+                <img src="images/Alta_montaña.jpg" height="60%" width="60%" class="img-circle">
+            </div>
+            <div class="col-sm-6">
+              <h4>Decouverte</h4>
+              <img src="images/Descubir.jpg" height="60%" width="60%" class="img-circle">
+            </div>
+            <div class="col-sm-6">
+              <h4>Excursions</h4>
+                <img src="images/Excursiones.jpg" height="60%" width="60%" class="img-circle">
+            </div>
+            
+          </div>
+          <div class="col-sm-4">
+            <h4>Suscribete</h4>
+            <br>
+            <h5 style="color: #fff;">Suscríbase para estar al tanto de noticias y notificaciones nuevas</h5>
+            <center>
+              <form action="{{route('publicnewsletters.store')}}" method="post">
+            {{ csrf_field() }}
+              <?php $url = Request::path();?>
+              <input type="hidden" name="language" value="{{$url}}">
+              <input name='email' placeholder='example@mail.com' class="form-control text-center" type="email" style="width:230px" >
+              <button type="" class="btn-submit text-center" style="background-color:#fff;width:300px;text-align: center;color:#000;margin-left:5px" >Suscribirme ahora</button>
+                  
+          </form>
+            </center>
           </div>
         </div>
+        
+         </div>
       </div>
+  
+      -->
+
+<div class="container-fluid">
+  <div class="row" style="text-align: center; color: white;">
+ 
+     <div class="col-xs-12 col-md-8">
+      <div class="row" sty>
+        <div class="col-xs-12">
+            <h2><strong>TOURS</strong></h2>
+        </div>
+    
+      </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                   <h4>Aventure</h4>
+              <img src="images/Aventura.jpg" height="60%" width="60%" class="img-circle">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                  <h4>Haute Montagne</h4>
+                <img src="images/Alta_montaña.jpg" height="60%" width="60%" class="img-circle">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                  <h4>Decouverte</h4>
+              <img src="images/Descubir.jpg" height="60%" width="60%" class="img-circle">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                   <h4>Excursions</h4>
+                <img src="images/Excursiones.jpg" height="60%" width="60%" class="img-circle">
+            </div>
+        </div>
     </div>
+     <div class="col-xs-12 col-md-4">
+            <h2><strong>Abonnieren</strong></h2>
+        
+            <h5 style="color: #fff;">Abonnieren Sie Neuigkeiten und Informationen über uns</h5>
+          
+              <form action="{{route('publicnewsletters.store')}}" method="post">
+            {{ csrf_field() }}
+              <?php $url = Request::path();?>
+              <input type="hidden" name="language" value="{{$url}}">
+              <input name='email' placeholder='example@mail.com' class="form-control text-center" type="email" style="width:90%">
+              <button type="submit" class="btn-submit text-center" style="width:90%">Jetzt abonnieren</button>
+                  
+          </form>
+           
+    </div>
+  </div>
+</div>
+    </div>
+    
   </footer>
+
+
+  <!--fin  del footer-->
+
+
+
+
+
+
+
+
 @endsection
 
 

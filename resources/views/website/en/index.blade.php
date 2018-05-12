@@ -4,141 +4,75 @@
 @section('description', 'Tierras de los Andes: Agence de voyages et Tour opérateur péruvien spécialiste des voyages découverte, aventure, randonnée et trekking en petit groupe et sur mesure')
 
 @section('translate')
-    <div class="top-header">
-
-        <div class="wrap-top">
-
-            <div class="info-top pull-left">
-              
-                <<small class="top-element"><strong><a href="#">Info: terandes@terandes.com</a></strong></small>
-                <small class="top-element"><a href="#">Appelez-nous maintenant: 00 51 84 247277</a></small>
-            </div>
-
-            <div class="language-top pull-right">
-                <small class="top-element-language">Langue:</small>
-                <a class="route-language" href="{{url('')}}"><img class="img-lng" src="{{url('')}}/img/lng/fr.png" alt="Idioma"></a>
-                <a class="route-language" href="{{url('')}}/en"><img class="img-lng" src="{{url('')}}/img/lng/en.png" alt="Idioma"></a>
-                <a class="route-language" href="{{url('')}}/es"><img class="img-lng" src="{{url('')}}/img/lng/es.png" alt="Idioma"></a>
-                <a class="route-language" href="{{url('')}}/de"><img class="img-lng" src="{{url('')}}/img/lng/de.png" alt="Idioma"></a>
-                <a class="route-language" href="{{url('')}}/it"><img class="img-lng" src="{{url('')}}/img/lng/it.png" alt="Idioma"></a>
-            </div>
-
-        </div>
-
-    </div>
+    
 @endsection
 
 @section('content')
-<section id="NosVoyages" class="showcase">
 
-    <div class="container">
-
-        <div class="text-center our-services">
-        <div class="row">
-        <div class="col-sm-4">
-            <div>
-              <img src="images/descubrir.png" style="width: 70px; height: 90px">
-            </div>
-            <div class="service-info">
-              <h3><a href="{{url('')}}/en/tours/decouverte/Discover">Discovery </a> </h3>
-              <p>Discover the country and its inescapables in all simplicity</p>
-            </div>
-                    </div>
-        <div class="col-sm-4">
-            <div>
-              <img src="images/aventura.png" style="width: 90px; height: 90px">
-            </div>
-            <div class="service-info">
-                <h3><a href="{{url('')}}/en/tours/decouverte/Aventure">Adventure</a></h3>
-              <p>For those who love trekking in places still authentic and wild</p>
-            </div>
-                    </div>
-                    <div class="col-sm-4">
-               <div>
-              <img src="images/Alta_montana.png" style="width: 90px; height: 90px">
-            </div>
-            <div class="service-info">
-                <h3><a href="{{url('')}}/en/tours/decouverte/High-Mountain">High mountain</a></h3>
-              <p>For lovers of high summits and new challenges</p>
-            </div>
-                  </div>
-                  </div>
-                     <div class="row">
-
-                    <!--<div class="col-sm-4">
-               <div class="service-icon">
-              <i class="fa fa-camera-retro"></i>
-            </div>
-            <div class="service-info">
-              <h3>Descubrir</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-            </div>
-                  </div>-->
-                              <div class="col-sm-12">
-               <div>
-              <img src="images/excursiones2.png" style="width: 140px; height: 100px">
-            </div>
-            <div class="service-info">
-                <h3><a href="{{url('')}}/en/tours/decouverte/Excursions">Excursions</a></h3>
-              <p>Visits to the 4 corners of Peru</p>
-            </div>
-                  </div>
-                              <!--<div class="col-sm-4">
-               <div class="service-icon">
-              <i class="fa fa-camera-retro"></i>
-            </div>
-            <div class="service-info">
-              <h3>Descubrir</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-            </div>-->
-                  </div>
-                  </div>
-                  </div>
-
-    </div>
-
-</section>
-<section id="about-us" class="parallax">
+<section id="imagenes-ferias" class="parallax" style="color: #4b4b4b" "padding-top:10px; padding-bottom: 10px">
+    
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
-          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2>Mesure</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
+      	<h2 align="center" style="color: #4b4b4b">Blog</h2>
+      	 <br>
+      	 <h4><p align="center" style="color: #4b4b4b">Tierras de los Andes will be present at the International Tourism Travel Trade Show which will take place on October 20th, 21st and 22nd in Montreal, Canada!</p></h4>
+    	<br>
+        
+        <div class="col-sm-12">
+        	<center>
+        		<a href="{{ URL::to('http://www.salontourismevoyages.com/') }}"><img src="img/feria1.jpg" class="img-rounded"></a>
+          		<h3 style="color: #4b4b4b">20 - 21 - 22 october 2017</h3>
+            	<a href="{{ URL::to('http://www.google.com') }}" p>International Travel Tourism Show (Montreal, Canada)</p></a>
+        	</center>
         </div>
-        <div class="col-sm-6">
-          <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-            <div>
-              <img src="images/en_grupo.jpg" style="width:90px; height: 90px">
-            </div>
-            <div class="service-info">
-              <h3>In Group</h3>
-              <p>A trip that will satisfy everyone</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-            <div>
-              <img src="images/en_familia.jpg" style="width:90px; height: 90px">
-            </div>
-            <div class="service-info">
-              <h3>In family</h3>
-              <p>Take advantage of a suitable trip for adults as well as for young people</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-            <div>
-              <img src="images/en_pareja.jpg" style="width:90px; height: 90px">
-            </div>
-            <div class="service-info">
-              <h3>Couple</h3>
-              <p>Share unforgettable moments with your partner</p>
-            </div>
-          </div>
-          </div>
+        
+        
+        
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  
+<section id="about-us" class="parallax" style="color: #4b4b4b" "padding-top:10px; padding-bottom: 10px">
+    <br>
+    <br>
+    
+    <div class="container">
+      <div class="row">
+      	<h2 align="center" style="color: #4b4b4b">Measure</h2>
+      	 <br>
+    	<br>
+        <div class="col-sm-3">
+        	<center>
+        		<a href="{{url('')}}/en/tours/Group"><img src="{{url('')}}/img/grupo1icono.png" class="img-rounded">
+          		<h3 style="color: #4b4b4b">In Group</h3></a>
+            	<p>A trip that will satisfy everyone</p>
+        	</center>
         </div>
+        <div class="col-sm-3">
+        	<center>
+        		<a href="{{url('')}}/en/tours/Family"><img src="{{url('')}}/img/familia1icono.png" class="img-rounded">
+          		<h3 style="color: #4b4b4b">In family</h3></a>
+            	<p>Enjoy an adapted trip for adults as well as for young people</p>
+        	</center>
+        </div>
+        <div class="col-sm-3">
+        	<center>
+        		<a href="{{url('')}}/en/tours/Couple"><img src="{{url('')}}/img/couple1icono.png" class="img-rounded"></a>
+          		<h3 style="color: #4b4b4b">Couple</h3>
+            	<p>Share unforgettable moments with your partner</p>
+        	</center>
+        </div>
+        <div class="col-sm-3">
+        	<center>
+        		<a href="{{url('')}}/en/tours/Friends"><img src="{{url('')}}/img/amigos1icono.png" class="img-rounded"></a>
+          		<h3 style="color: #4b4b4b">Friends</h3>
+            	<p>Share unforgettable moments with your friends</p>
+        	</center>
+        </div>
+        
       </div>
     </div>
   </section>
@@ -150,7 +84,8 @@
       <div class="row">
         <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
           <h2>Prepare your trip</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+          <br>
+          <p> </p>
         </div>
       </div>
     </div>
@@ -159,7 +94,7 @@
         <div class="col-sm-6">
           <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="folio-image">
-              <img class="img-responsive" src="img/5.jpg" alt="">
+              <img class="img-responsive" src="img/peru_portada.jpg" alt="">
             </div>
             <div class="overlay">
               <div class="overlay-content">
@@ -189,7 +124,7 @@
                 <!-- Wrapper for slides -->
                   <div class="carousel-inner">
                     <div class="item active">
-                     <img class="img-responsive" src="img/5.jpg" width="100%;" alt="...">
+                     <img class="img-responsive" src="img/peru1.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
                         General information <br> Peru is: </ p> <br>
                          • A population of about 30 million. <br>
@@ -204,7 +139,7 @@
                       </div>
                     </div>
                     <div class="item">
-                      <img class="img-responsive" src="img/5.jpg" width="100%;" alt="...">
+                      <img class="img-responsive" src="img/peru2.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
                         Health and security<br>
                         General: In Peru, it is important to respect some rules of hygiene and health. We advise you to:
@@ -217,13 +152,11 @@
                         • Diphtheria-tetanus-poliomyelitis <br>
                         • Yellow fever (in case of stay in the Amazon, which is compulsory in case of stay in Venezuela from el Peru) <br>
                         • Influenza (recommended for the most fragile subjects, many cases of influenza AH1N1 detected in Peru) <br> <br>
- 
-                        Stay in Amazonia: In addition to yellow fever vaccination, treatment for malaria may be recommended (see your doctor's advice) <br>
 
                       </div>
                     </div>
                      <div class="item">
-                      <img class="img-responsive" src="img/5.jpg" width="100%;" alt="...">
+                      <img class="img-responsive" src="img/peru3.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
                         What should I bring?<br>
                         Here is an exhaustive list of what to bring during a trip to Peru <br>
@@ -232,7 +165,7 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
                       </div>
                     </div>
                     <div class="item">
-                      <img class="img-responsive" src="img/5.jpg" width="100%;" alt="...">
+                      <img class="img-responsive" src="img/peru1.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
                         Best Season, Holidays<br>
                         Peru is also made up of regions as numerous as distinct (coast, Andes, Amazonia) characterized by climates very different from each other: <br>
@@ -244,7 +177,7 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
                       </div>
                     </div>
                     <div class="item">
-                      <img class="img-responsive" src="img/5.jpg" width="100%;" alt="...">
+                      <img class="img-responsive" src="img/peru2.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
                         Useful information<br>
                         HOURLY SHIFT From March to October (summer time), it will be necessary to reverse your watch of 7 hours arriving in Peru, and of 6 hours only from November to February. <br>
@@ -275,7 +208,7 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
         <div class="col-sm-6">
           <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
             <div class="folio-image">
-              <img class="img-responsive" src="img/11.jpg" alt="">
+              <img class="img-responsive" src="img/bolivia_portada.jpg" alt="">
             </div>
             <div class="overlay">
               <div class="overlay-content">
@@ -307,7 +240,7 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
                 <!-- Wrapper for slides -->
                   <div class="carousel-inner">
                     <div class="item active">
-                     <img class="img-responsive" src="img/11.jpg" width="100%;" alt="...">
+                     <img class="img-responsive" src="img/bolivia1.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
                         General information <br> Peru is: </ p> <br>
                          • A population of about 30 million. <br>
@@ -322,7 +255,7 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
                       </div>
                     </div>
                     <div class="item">
-                      <img class="img-responsive" src="img/11.jpg" width="100%;" alt="...">
+                      <img class="img-responsive" src="img/bolivia2.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
                        Health and security<br>
                         General: In Peru, it is important to respect some rules of hygiene and health. We advise you to:
@@ -334,14 +267,12 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
                         Vaccines: To enter Peru from France, no vaccine is obligatory. Some however are recommended include: <br>
                         • Diphtheria-tetanus-poliomyelitis <br>
                         • Yellow fever (in case of stay in the Amazon, which is compulsory in case of stay in Venezuela from el Peru) <br>
-                        • Influenza (recommended for the most fragile subjects, many cases of influenza AH1N1 detected in Peru) <br> <br>
- 
-                        Stay in Amazonia: In addition to yellow fever vaccination, treatment for malaria may be recommended (see your doctor's advice) <br>
+                        • Influenza (recommended for the most fragile subjects, many cases of influenza AH1N1 detected in Peru) <br> 
 
                       </div>
                     </div>
                      <div class="item">
-                      <img class="img-responsive" src="img/11.jpg" width="100%;" alt="...">
+                      <img class="img-responsive" src="img/bolivia3.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
                          What should I bring?<br>
                         Here is an exhaustive list of what to bring during a trip to Peru <br>
@@ -350,7 +281,7 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
                       </div>
                     </div>
                     <div class="item">
-                      <img class="img-responsive" src="img/11.jpg" width="100%;" alt="...">
+                      <img class="img-responsive" src="img/bolivia1.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
                         Best Season, Holidays<br>
                         Peru is also made up of regions as numerous as distinct (coast, Andes, Amazonia) characterized by climates very different from each other: <br>
@@ -362,7 +293,7 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
                       </div>
                     </div>
                     <div class="item">
-                      <img class="img-responsive" src="img/11.jpg" width="100%;" alt="...">
+                      <img class="img-responsive" src="img/bolivia2.jpg" width="100%;" alt="...">
                       <div class="carousel-caption">
                        Useful information<br>
                         HOURLY SHIFT From March to October (summer time), it will be necessary to reverse your watch of 7 hours arriving in Peru, and of 6 hours only from November to February. <br>
@@ -405,21 +336,30 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
 
   
   <section id="team" style="padding-top: 0px">
+      <br>
+      <br>
+      <br>
+      <br>
+      
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
           <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2> Who are we? </h2>
-             <p> Tierras de los Andes is a S.A.C (Closed Joint-stock Company) which opened its doors in 2000. Our main objective is to create a complete holiday off the beaten track. </p>
-             <p> Tierras de los Andes is an agency that organizes stays and offers a wide selection of services and services for individual or group clientele. We conceive any type of stay, from the "discovery" trip to the adventure trek, through business stays. We welcome families as well as companies from all over the world to discover Peru and more generally South America. </p>
-           </div>
+            <h2>About us</h2>
+            <p>TTierras de los Andes is a Limited Liability Tour Operator, which started its operations in the year 2000. This Peruvian tour operator specializes in adventure trips with the primary goal the creation of complete programs off the beaten path.
+             </p>
+            <p>Our objective is to provide a reliable service of high quality  involving local  suppliers. Our approach tends to go towards a fair, responsible tourism products including ecological responsibility.
+
+                Tierras de los Andes is a company oriented to planning trips, covering a wide range of benefits and services to individual clients  as well as groups. We can create any type of program, from discovery to adventure trek, as well as business trips.
+                We work creating programs to discover Peru and South America for families and companies.</p>
+          </div>
 
         </div>
         <div class="col-sm-6">
           <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2> Our state of mind </h2>
-             <p> Tierras de los Andes offers a wide range of services, from planning operations to tailor-made travel coordination and quality customer service. This Peruvian tour operator relies on a team of professionals giving the best of themselves to ensure the best possible services to the travelers and guarantee complete satisfaction. </p>
-             <p> An Adventure Spirit: Peru is a paradise for Adventure Tourism. Whether climbing the mountains, walking on ancient Inca trails, traveling through the network of roads that crisscross the country, or whitewater rafting. Tierras de los Andes offers you all types of adventure trips depending on the level you are looking for: From extreme adrenaline to simpler adventures for amateurs or enthusiasts. </p>
+            <h2>The spirit of Tierras de los Andes</h2>
+            <p>Tierras de los Andes offers a wide range of business planning and travel management as through quality service to our customers. Our operations in Peru are built on a team of professionals who do their best to ensure the best possible services to travelers and thus ensuring total satisfaction.</p>
+            <p> Peru is a paradise for Adventure Tourism. Whether it's climbing the mountains, walking on ancient Inca trails, exploring the network of paths that crisscross the country, white water rafting. Tierras de los Andes offers all types of adventure travel according to the level of interest: From extreme adrenaline to simpler adventures, for amateurs or enthusiasts.</p>
           </div>
         </div>
       </div>
@@ -427,8 +367,9 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
     <div class="container">
       <div class="row">
         <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-          <h2>Tierras de los Andes <a href="{{url('')}}/tours/decouverte/le-perou-en-famille"></a></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+          <h2>Tierras de los Andes' Team <a href="{{url('')}}/tours/decouverte/le-perou-en-famille"></a></h2>
+          <p align="center">Experience and enthusiasm to create and offer you the most original trips to Peru. We operate from the heart of the Andes, Cusco where our head office is located.</p>
+          <br><br>
         </div>
       </div>
       <!--<div class="team-members">
@@ -463,23 +404,15 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
           @endforeach
         </div>-->
 
-          <div class="col-sm-6">
+          <div class="col-sm-12">
             <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
               <div class="member-image">
-                <img class="img-responsive" src="images/team/persona.png" alt="">
+                <img class="img-responsive" src="img/gruponuevo4.gif" alt="">
               </div>
               <div class="member-info">
-                <h3>imagen grupo</h3>
-                <h4>Grupo</h4>
-                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                
               </div>
-              <div class="social-icons">
-                <ul>
-                  <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-              </div>
+              
             </div>
           </div>
           <!--<div class="col-sm-3">
@@ -545,8 +478,11 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
 
   </section><!--se acaba modulo de nosotros-->    
 
-
-<section id="twitter" class="parallax">
+<div class="heading text-center col-sm-8 col-sm-offset-2">
+<h2>Blog</h2>
+</div>
+  <section id="twitter" class="parallax">
+     
     <div id="blogspace">
       <a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev" style="margin-top: -220px;"><i class="fa fa-angle-left"></i></a>
       <a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next" style="margin-top: -220px;"><i class="fa fa-angle-right"></i></a>
@@ -579,11 +515,20 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
     </div>
   </section><!--/#blog-->
   <section id="testimonial" style="padding-top: 0px; padding-bottom: 0px">
+      
+      <br>
+      <br>
+      <br>
+      <br>
     <div class="container">
       <div class="row">
         <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
           <h2>Testimonials</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+          <br>
+          <p>
+              Share travel experiences with us
+          </p>
+          <br>
         </div>
       </div>
      <!-- <div class="blog-posts">
@@ -641,7 +586,7 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
                     <div class="entry-header">
                       <h3><a href="#">{{$testimonials[$i]->name}}</a></h3>
                       <span class="date">{{$testimonials[$i]->date}}</span>
-                      <span class="cetagory">in <strong>Alta Montaña</strong></span><!--TOUR???-->
+                      <span class="cetagory"></span><!--TOUR???-->
                     </div>
                     <div class="entry-content">
                       <p>{{$testimonials[$i]->testimonial}} </p>
@@ -657,7 +602,7 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
                     <div class="entry-header">
                       <h3><a href="#">{{$testimonials[$i+1]->name}}</a></h3>
                       <span class="date">{{$testimonials[$i+1]->date}}</span>
-                      <span class="cetagory">in <strong>Alta Montaña</strong></span><!--TOUR???-->
+                      <span class="cetagory"></span><!--TOUR???-->
                     </div>
                     <div class="entry-content">
                       <p>{{$testimonials[$i+1]->testimonial}} </p>
@@ -673,7 +618,7 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
                     <div class="entry-header">
                       <h3><a href="#">{{$testimonials[$i+2]->name}}</a></h3>
                       <span class="date">{{$testimonials[$i+2]->date}}</span>
-                      <span class="cetagory">in <strong>Alta Montaña</strong></span><!--TOUR???-->
+                      <span class="cetagory"></span><!--TOUR???-->
                     </div>
                     <div class="entry-content">
                       <p>{{$testimonials[$i+2]->testimonial}} </p>
@@ -690,23 +635,7 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
             </div>
           
           </div>
-          <!--<div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
-            <div class="post-thumb">
-              <a href="#"><img class="img-responsive" src="images/blog/blog3.png" alt=""></a>
-              </div>
-            <div class="entry-header">
-              <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
-              <span class="date">Setiembre 22, 2017</span>
-              <span class="cetagory">en <strong>Aventura</strong></span>
-            </div>
-            <div class="entry-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            </div>
-          </div>
-        </div>-->
-        <!--<div class="load-more wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
-          <a href="#" class="btn-loadmore"><i class="fa fa-repeat"></i> Cargar m&aacute;s</a>
-        </div>-->
+          
 
       </div>
 
@@ -717,6 +646,7 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
 
     </div>
         <div class="heading text-center col-sm-8 col-sm-offset-2">
+            <br><br><br>
 <button 
    type="button" 
    class="btn btn-primary btn-lg" 
@@ -736,13 +666,13 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
           aria-label="Close">
           <span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" 
-        id="favoritesModalLabel">Ingresa tu testimonio</h4>
+        id="favoritesModalLabel">Enter your testimony</h4>
       </div>
              <div class="modal-body"> 
 
      <div style="padding:0 5 5 5">
-          <h3>Entrez un témoignage</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+          <h3>Enter your testimony</h3>
+          <p></p>
         
                  <br>
           <form id="main2-contact-form" name="contact-form" method="post" action="{{ route('publictestimonials.store') }}" enctype="multipart/form-data">
@@ -792,10 +722,10 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
                     </div>
                   </div>
                 <div class="form-group">
-                  <textarea name="testimonial" id="testimonial" class="form-control" rows="4" placeholder="Ingrese su Testimonio" style="border: 2px solid #e6e6e6;" required="required"></textarea>
+                  <textarea name="testimonial" id="testimonial" class="form-control" rows="4" placeholder="Enter your testimony" style="border: 2px solid #e6e6e6;" required="required"></textarea>
                 </div>
                 <div class="form-group">
-                  <button type="submit" class="btn-submit">Send Now</button>
+                  <button type="" class="btn-submit">Send now</button>
                 </div>
               </form>
                  </div>
@@ -804,108 +734,291 @@ General: - A bag or a soft bag - A backpack of 20 to 30 liters - Comfortable sho
  </div>
     </div>
 </div>
+
+
+
+
+
+
   </section><!--/#testimonial-->
 
-  <div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_default_style" style="bottom:0px; right:0px;">
-    <a class="a2a_button_facebook"></a>
-    <a class="a2a_button_twitter"></a>
-    <a class="a2a_button_google_plus"></a>
-    <a class="a2a_button_pinterest"></a>
+  <div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_default_style" style="bottom:150px;">
+    <a class="a2a_button_facebook"></a><br>
+    <a class="a2a_button_twitter"></a><br>
+    <a class="a2a_button_google_plus"></a><br>
+    <a class="a2a_button_pinterest"></a><br>
 </div>
 
 <section id="map-section" style="padding-top: 10%;">
-  <div class="col-sm-12">
-      <div class="col-sm-6">
-        <div id="google-map" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
-      </div>
-      <div class="col-sm-6">
-        <div id="google-map1" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms" style="width: 100%;"></div>
-      </div>
-    </div>
-</section>
-<section id="contact" style="padding-top: 10%;">
-    <div id="contact-us" class="parallax">
-      <div class="container">
-        <div class="row">
-          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2>Contains</h2>
+    <br>
+    
+      <center>
+        <h2>Contact us</h2>
+      </center>
+      <br>
+      
+      <div class="col-sm-12">
+          
+          
+          <div class="col-sm-6">
             
-          </div>
-        </div>
-        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms" style="padding-top: 5%;">
-          <div class="row">
-            <div class="col-sm-6">
-              <form id="main2-contact-form" name="contact-form" method="post" action="#">
-                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="text" name="name" class="form-control" placeholder="Nom complet" required="required">
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="email" name="email" class="form-control" placeholder="Email" required="required">
-                    </div>
-                  </div>
-                   <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="email" name="email" class="form-control" placeholder="Téléphone" required="required">
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="text" name="subject" class="form-control" placeholder="Pays" required="required">
-                </div>
-               
-                <div class="form-group">
-                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Poste" required="required"></textarea>
-                </div>
-                <div class="form-group">
-                  <button type="submit" class="btn-submit">Enviar ahora</button>
-                </div>
-              </form>
-            </div>
-            <div class="col-sm-6">
-              <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            
-                <ul class="address">
-                  <li><i class="fa fa-map-marker"></i> <span> Direcci&oacute;n:</span>Calle Turquezas E-11 Urb. Kenedy A - CUSCO - PERU </li>
-                  <li><i class="fa fa-phone"></i> <span> Tel&eacute;fono:</span> 00 51 84 247277  </li>
-                  <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:terandes@terandes.com"> terandes@terandes.com</a></li>
-                </ul>
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <center>
+                   <div id="google-map" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms"></div> 
+                </center>
+              </div>
+              <div class="panel-footer" style="color: #000;">
+                <p> Adress: Calle Turquezas E-11 Urb. Kenedy A - CUSCO - PERU</p>
+                <p> Phone: 00 51 84 247277</p>
+                <p> Email: <a href="#"> terandes@terandes.com</a></p>
               </div>
             </div>
+            
+            
           </div>
-        </div>
-      </div>
-    </div>
-  </section><!--/#contact-->
 
- <footer id="footer">
-    <div class="footer-top wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;background-color: #0e4817">
-      <div class="container text-center">
-        <div class="footer-logo">
-          <a href="index.html"><img class="img-responsive" src="http://localhost:8000/img/terandes-logo.png" alt=""></a>
-        </div>
-        <div class="social-icons">
-          <ul>
-            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li> 
-            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="container">
-        <div class="row">
           <div class="col-sm-6">
-            <p style="color: #0e4817">© 2017 TerAndes.</p>
+            
+            <div class="panel panel-default">
+              <div class="panel-body">
+                
+                  <div id="google-map1" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
+                
+              </div>
+              <div class="panel-footer" style="color: #000;">
+                <p> Adress: Calle Bolivar 221 Oficina 4 1er piso Miraflores - Lima - Perú</p>
+                <p> Phone: 00 51 1 2434475</p>
+                <p> Email: <a href="#"> terandes@terandes.com</a></p>
+              </div>
+            </div>
+            
+            
+          </div>
+
+          
+      </div>
+      <div class="heading text-center col-sm-8 col-sm-offset-2">
+<button 
+   type="button" 
+   class="btn btn-primary btn-lg" 
+   data-toggle="modal" 
+   data-target="#contactModal">
+  Contact Us
+</button>
+</div>
+      
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+</section>
+
+
+<div class="modal fade" id="contactModal" 
+     tabindex="-1" role="dialog" 
+     aria-labelledby="favoritesModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" 
+          data-dismiss="modal" 
+          aria-label="Close">
+          <span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" 
+        id="favoritesModalLabel">Contact</h4>
+      </div>
+             <div class="modal-body"> 
+
+     <div style="padding:0 5 5 5">
+          <h3>Contact Us</h3>
+          <p></p>
+        
+                 <br>
+          <form id="main2-contact-form" name="contact-form" method="post" action="{{ route('publictestimonials.store') }}" enctype="multipart/form-data">
+             <?php $url = Request::path();?>
+              <input type="hidden" name="language" value="{{$url}}">
+              <input type="hidden" name="status" value="disapproved">
+              <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" name="name" class="form-control" placeholder="Name" required="required" style="border: 2px solid #e6e6e6;">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="email" name="email" class="form-control" placeholder="Email" required="required" style="border: 2px solid #e6e6e6;">
+                    </div>
+                  </div>
+                     
+                    <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" name="nationality" class="form-control" placeholder="Nationality" required="required" style="border: 2px solid #e6e6e6;">
+                    </div>
+                  </div>
+                      
+              </div>
+                
+                     
+                  </div>
+                <div class="form-group">
+                  <textarea name="testimonial" id="testimonial" class="form-control" rows="4" placeholder="Contact" style="border: 2px solid #e6e6e6;" required="required"></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="" class="btn-submit">Send</button>
+                </div>
+              </form>
+                 </div>
+     
+
+ </div>
+    </div>
+</div>
+
+
+
+
+<style>
+  h4{
+    color: #fff;
+    
+  }
+  a{
+    color: #000;
+  }
+  a:hover{
+    color: #018416;
+  }
+  .panel-footer{
+    background-color: #e6ece7;
+  }
+  ul#menu li {
+    display:inline;
+}
+footer{
+  background-color: rgb(16,54,9);
+}
+</style>
+
+
+
+<!--inicio del footer-->
+
+ <footer >
+            
+    <div class="footer-top wow fadeInUp animated" style="padding-top: 0px;" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;background-color: rgb(13,52,14)">
+        
+           <!-- 
+      <div class="container text-center">
+        <div class="row">
+          
+       
+        <div class="col-lg-18">
+          <div class="col-sm-2" style="padding-top: 10%; padding-rigth:1pt">
+            
+              <a href="#"><img height="160%" width="160%" src="img/terandes-logo.png"  ></a>
+            
+          </div>
+          
+          <div class="col-sm-6" style="padding-left:2cm">
+            <div class="col-sm-12">
+              <h4>TOURS</h4>
+            </div>
+            <div class="col-sm-6" >
+              <h4>Aventure</h4>
+              <img src="images/Aventura.jpg" height="60%" width="60%" class="img-circle">
+            </div>
+            <div class="col-sm-6">
+              <h4>Haute Montagne</h4>
+                <img src="images/Alta_montaña.jpg" height="60%" width="60%" class="img-circle">
+            </div>
+            <div class="col-sm-6">
+              <h4>Decouverte</h4>
+              <img src="images/Descubir.jpg" height="60%" width="60%" class="img-circle">
+            </div>
+            <div class="col-sm-6">
+              <h4>Excursions</h4>
+                <img src="images/Excursiones.jpg" height="60%" width="60%" class="img-circle">
+            </div>
+            
+          </div>
+          <div class="col-sm-4">
+            <h4>Suscribete</h4>
+            <br>
+            <h5 style="color: #fff;">Suscríbase para estar al tanto de noticias y notificaciones nuevas</h5>
+            <center>
+              <form action="{{route('publicnewsletters.store')}}" method="post">
+            {{ csrf_field() }}
+              <?php $url = Request::path();?>
+              <input type="hidden" name="language" value="{{$url}}">
+              <input name='email' placeholder='example@mail.com' class="form-control text-center" type="email" style="width:230px" >
+              <button type="" class="btn-submit text-center" style="background-color:#fff;width:300px;text-align: center;color:#000;margin-left:5px" >Suscribirme ahora</button>
+                  
+          </form>
+            </center>
           </div>
         </div>
+        
+         </div>
       </div>
+  
+      -->
+
+<div class="container-fluid">
+  <div class="row" style="text-align: center; color: white;">
+ 
+     <div class="col-xs-12 col-md-8">
+      <div class="row" sty>
+        <div class="col-xs-12">
+            <h2><strong>TOURS</strong></h2>
+        </div>
+    
+      </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                   <h4>Aventure</h4>
+              <a href="{{url('')}}/en/tours/decouverte/Aventure"><img src="images/Aventura.jpg" height="60%" width="60%" class="img-circle"></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                  <h4>Haute Montagne</h4>
+                <a href="{{url('')}}/en/tours/decouverte/High-Mountain"><img src="images/Alta_montaña.jpg" height="60%" width="60%" class="img-circle"></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                  <h4>Decouverte</h4>
+              <a href="{{url('')}}/en/tours/decouverte/Discover"><img src="images/Descubir.jpg" height="60%" width="60%" class="img-circle"></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                   <h4>Excursions</h4>
+                <a href="{{url('')}}/en/tours/decouverte/Excursions"><img src="images/Excursiones.jpg" height="60%" width="60%" class="img-circle"></a>
+            </div>
+        </div>
     </div>
+     <div class="col-xs-12 col-md-4">
+            <h2><strong>Subscribe</strong></h2>
+        
+            <h5 style="color: #fff;">Subscribe to receive news</h5>
+          
+              <form action="{{route('publicnewsletters.store')}}" method="post">
+            {{ csrf_field() }}
+              <?php $url = Request::path();?>
+              <input type="hidden" name="language" value="{{$url}}">
+              <input name='email' placeholder='example@mail.com' class="form-control text-center" type="email" style="width:90%">
+              <button type="submit" class="btn-submit text-center" style="width:90%">Subscribe now</button>
+                  
+          </form>
+           
+    </div>
+  </div>
+</div>
+    </div>
+    
   </footer>
+
+
+  <!--fin  del footer-->
+
+
+
+
 @endsection
 
 

@@ -54,8 +54,8 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => '127.0.0.1',
-            'database' => 'terandesBD',
+            'host' => 'localhost',
+            'database' => 'terandesbd',
             'username' => 'root',
             'password' => '',
             'charset' => 'utf8',

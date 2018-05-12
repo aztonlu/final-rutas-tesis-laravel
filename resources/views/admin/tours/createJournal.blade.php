@@ -103,7 +103,7 @@
                          <div class="box-footer">
                                 <a href="{{route('tours.index')}}" class="btn btn-default pull-left">Cancelar</a>
                                 {!! Form::submit('Next Jornal', ['class' => 'btn btn-info pull-right']) !!}
-                                <a href="saveOrganization/{{ $tour[0]->id }}" class="btn btn-info pull-right">Go to Organizations</a>
+                                <a href="{{url('')}}/saveOrganization/{{ $tour[0]->id }}" class="btn btn-info pull-right">Go to Organizations</a>
                                 
                             </div>
                     </div>  

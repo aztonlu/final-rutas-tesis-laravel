@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="" />
@@ -38,9 +38,9 @@
 @yield('translate')
 
 @include('website.partials.navdescubrirfr')
-
 </header>
 
+@include('website.partials.slider')
 
 @yield('content')
 
@@ -61,8 +61,8 @@
       google.maps.event.addDomListener(window, 'load', initialize);
       function initialize() {
         //Declarar coordenas de los mapas Cusco - Lima
-        var latLng = new google.maps.LatLng(-13.517274, -71.978629);
-        var latLng1 = new google.maps.LatLng(-12.046519, -77.042664);
+        var latLng = new google.maps.LatLng(-13.5313136, -71.9525267);
+        var latLng1 = new google.maps.LatLng(-12.125797, -77.0282776);
 
         //Declarar elemento declarado en la vista
         var map = new google.maps.Map(document.getElementById('google-map'), {
@@ -112,9 +112,16 @@
       
     </script>
     
-<script type="text/javascript" src="{{url('')}}/js/min/map.min.js"></script>
+<!--<script type="text/javascript" src="{{url('')}}/js/min/map.min.js"></script>-->
+<script type="text/javascript" src="{{url('')}}/js/min/tripdetailpage.min.js"></script>
 <script type="text/javascript" src="{{url('')}}/js/min/tripdetailpage.min.js"></script>
 <script type="text/javascript" src="{{url('')}}/js/min/home.min.js"></script>
 <script async src="https://static.addtoany.com/menu/page.js"></script>
+<script>
+    $(".carousel").carousel({
+      interval: 5000,
+      pause : true
+    });
+</script>
 </body>
 </html>

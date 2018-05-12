@@ -4,6 +4,7 @@
                 <a class="navbar-brand" href="{{url('')}}">
                     <div class="mold-logo">
                         <img src="{{url('')}}/img/terandes-logo.png" class="logo-menu">
+                        
                     </div>
                 </a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
@@ -16,9 +17,7 @@
 
             <div class="navbar-collapse collapse" id="main-navbar">
                 <ul class="nav navbar-nav">
-                    <li>  <a href="filtrer.html"><small class="menu-important">VOYAGES EN GROUPE!!</small></a>
-                       
-                    </li>
+                    
 
                     <li class="dropdown megamenu">
                         <a class="dropdown-toggle" href="#NosVoyages">Nos Voyages</a>
@@ -44,7 +43,7 @@
                         </div>
                     </li>
 
-                    <li>  <a href="{{url('')}}/fr/tours">Sur mesure</a></li>
+                    <li>  <a href="#about-us">Sur mesure</a></li>
 
                     
 
@@ -56,7 +55,18 @@
 
                     <li><a href="#testimonial">Témoignages</a></li>
 
-                    <li><a href="#contact-us">Nous Contacter</a></li>
+                    <li><a href="#map-section">Nous Contacter</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Langues <span class="caret"></a>
+                        
+                            <ul class="dropdown-menu" style="min-width: 20px">
+                                <li><a class="route-language" href="{{url('')}}"><img class="img-lng"  src="{{url('')}}/img/lng/fr.png" alt="Idioma"></a></li>
+                                <li><a class="route-language" href="{{url('')}}/en"><img class="img-lng"  src="{{url('')}}/img/lng/en.png" alt="Idioma"></a></li>
+                                <li><a class="route-language" href="{{url('')}}/es"><img class="img-lng"  src="{{url('')}}/img/lng/es.png" alt="Idioma"></a></li>
+                                <li><a class="route-language" href="{{url('')}}/de"><img class="img-lng"  src="{{url('')}}/img/lng/de.png" alt="Idioma"></a></li>
+                                <li><a class="route-language" href="{{url('')}}/it"><img class="img-lng"  src="{{url('')}}/img/lng/it.png" alt="Idioma"></a></li>
+                            </ul>
+                    </li>
 
                 </ul>
             </div>

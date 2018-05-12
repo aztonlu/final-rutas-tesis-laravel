@@ -42,7 +42,7 @@
                                     @foreach($tours as $tour)
                                     <hr>
                                     <div class="form-group">
-                                        <input type="hidden" name="idTour" value="{{ $tour->id }}">
+                                        <input type="hidden" name="idTour" id="idTour" value="{{ $tour->id }}">
                                         {!! Form::label('title', 'Title', ['class'=>'col-sm-2 control-label']) !!}
                                         <div class="col-sm-10">
                                             {!! Form::text('title', $tour->title , ['class' => 'form-control', 'placeholder' => 'Aquí el título...', 'required']) !!}
@@ -59,7 +59,7 @@
                                     <div class="form-group">
                                         {!! Form::label('language', 'Language', ['class'=>'col-sm-2 control-label']) !!}
                                         <div class="col-sm-10">
-                                        {!! Form::select('language',['spanish' => 'Spanish', 'english' => 'English', 'italian' => 'Italian', 'frech' => 'French', 'german' => 'German'], $tour->language, ['class' => 'form-control']) !!}
+                                        {!! Form::select('language',['spanish' => 'Spanish', 'english' => 'English', 'italian' => 'Italian', 'french' => 'French', 'german' => 'German'], $tour->language, ['class' => 'form-control']) !!}
                                         </div>
                                     </div>
                                     @else
@@ -98,6 +98,69 @@
                                         {!! Form::select('difficulty', ['Easy' => 'Easy', 'Medium' => 'Medium', 'Difficult' => 'Difficult', 'Very Difficult' => 'Very Difficult'], $tour->difficulty, ['class' => 'form-control']) !!}
                                         </div>
                                     </div>
+                                    <div class="form-group">
+                                    
+                                        {!! Form::label('etapeJournal', 'Choose Measures', ['class'=>'col-sm-2 control-label']) !!}
+                                        @foreach($category_tours as $tag)
+                                        <div class="col-sm-2">
+                                            <label><input type="checkbox" value="{{ $tag }}" name="{{ $tag}}" id="{{ $tag }}" checked onclick="validateMeasures(this.value);">{{ $tag }}</label>
+                                        </div>
+                                        
+                                    @endforeach
+                                    @foreach($tags as $tagControl)
+                                        <div class="col-sm-2">
+                                            <label><input type="checkbox" value="{{ $tagControl }}" name="{{ $tagControl }}" id="{{ $tagControl }}"  onclick="validateMeasures(this.value);">{{ $tagControl }}</label>
+                                        </div>
+                                        
+                                    @endforeach
+                                    </div>
+                                    
+                                            
+                                        <span id="messageEtape" style="color: green"></span>
+                                        <script>
+                                            function validateMeasures(measure)
+                                            {
+                                              var estado = "";
+                                              var idTour = document.getElementById('idTour').value;
+                                              if(document.getElementById(measure).checked){
+                                                 
+                                                  estado = "inputCheck";
+                                              }
+                                              else{
+                                                
+                                                 estado = "outputCheck";
+                                              }
+
+                                              $.ajaxSetup({
+                                                 headers: { 'X-CSRF-Token' : $('meta[name=_token]').attr('content') }
+                                              });
+                                              $.ajax({
+                                                      url: "{{url('')}}/editMeasure",
+                                                      type: "POST",
+                                                      dataType: 'text',
+                                                      data: {'measure': measure, 'estado': estado, 'idTour': idTour},
+                                                      
+                                                      success: function(data){  
+                                                          var spanEtape = document.getElementById('messageEtape');
+                                                          if(estado == "inputCheck")
+                                                          {
+                                                            document.getElementById("messageEtape").innerHTML="inserted correctly";
+                                                            
+                                                          }
+                                                          else
+                                                          {
+                                                            document.getElementById("messageEtape").innerHTML="successfully deleted";
+                                                            
+                                                          }
+                                                      },
+                                                      error: function(data){
+                                                        document.getElementById("messageEtape").innerHTML="Error: please refresh the page";
+                                                        
+                                                      }
+                                                  });
+                                            }
+                                        </script>
+                                    <hr>
                                     <div class="form-group">
                                         {!! Form::label('summary', 'Tour', ['class'=>'col-sm-2 control-label']) !!}
                                         <div class="col-sm-10">

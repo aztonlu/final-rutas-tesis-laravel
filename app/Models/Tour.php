@@ -25,7 +25,7 @@ class Tour extends Model
         'organization',
         'map',
         'coverpage',
-        'pdf',//cambie pdf x carrusel en la bd
+        'pdf',
         'user_id',
         'language'
     ];

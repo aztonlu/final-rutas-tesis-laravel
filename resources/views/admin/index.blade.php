@@ -128,11 +128,7 @@
                 </div>
                 <!-- ./col -->
 
-<<<<<<< HEAD
-
-=======
                 
->>>>>>> 1f90c2ec1bb65649c8c151db19f9d156c8e3a5cd
                 <div class="col-lg-3 col-xs-6">
                     <div class="small-box bg-purple">
                         <div class="inner">
@@ -247,18 +243,11 @@
                         <div class="icon">
                             <i class="ion ion-loop"></i>
                         </div>
-<<<<<<< HEAD
-                        <a href="#" class="small-box-footer">Entrar al mmmódulo <i class="fa fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
-                <!-- ./col -->
-=======
                         <a href="#" class="small-box-footer">Entrar al módulo <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
                 <!-- ./col -->
 
->>>>>>> 1f90c2ec1bb65649c8c151db19f9d156c8e3a5cd
             </div>
             <!-- /.row -->
 
@@ -267,8 +256,4 @@
     </div>
     <!-- /.content-wrapper -->
 
-<<<<<<< HEAD
 @endsection
-=======
-@endsection
->>>>>>> 1f90c2ec1bb65649c8c151db19f9d156c8e3a5cd

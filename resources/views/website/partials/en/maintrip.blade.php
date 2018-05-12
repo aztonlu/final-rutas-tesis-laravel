@@ -34,14 +34,12 @@
 
 <header class="nav-menu fixed-top">
 
-    @yield('translate')
 
-    @include('website.partials.en.nav')
+    @include('website.partials.en.naven')
 
 </header>
 
 @yield('content')
-@include('website.partials.en.footer')
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script type="text/javascript" src="{{url('')}}/vendor/jquery/dist/jquery.min.js"></script>

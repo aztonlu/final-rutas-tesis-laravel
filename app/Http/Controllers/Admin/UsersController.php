@@ -26,6 +26,7 @@ class UsersController extends Controller
     }
     public function indexPrincipal($lenguage)
     {
+
         $users = User::all();
         $testimonials = Testimonial::where('status',"approved")->get();
         $tours = Tour::get();
@@ -35,6 +36,7 @@ class UsersController extends Controller
             case 'fr':
                      return view('website.fr.index')->with(['users'=>$users,'testimonials'=>$testimonials,
                             'tours'=>$tours,'blogs'=>$blogs]);
+                            echo "direccionamiento a FR";
                     break;
             case 'es':
                     return view('website.es.index')->with(['users'=>$users,'testimonials'=>$testimonials,
@@ -53,7 +55,6 @@ class UsersController extends Controller
                             'tours'=>$tours,'blogs'=>$blogs]);
                     break;
         }
-
     }
     
     

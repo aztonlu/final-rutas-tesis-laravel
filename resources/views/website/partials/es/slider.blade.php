@@ -1,36 +1,36 @@
 <div class="carousel slide carousel-fade full-height" id="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-        <div class="item with-overlay active" style="background-image: url('{{url('')}}/img/9.jpg');">
+        <div class="item with-overlay active" style="background-image: url('{{url('')}}/img/decouverte_nuevo.jpg');">
             <div class="carousel-caption center-txt">
                 <h1 class="main-header">Descubra</h1>
                 <hr>
                 <p class="sub-header">Descubre el país y sus zonas imperdibles en toda simplicidad</p>
-                <a href="" class="btn btn-lg btn-primary hvr-sweep-to-right">Explorar viajes</a>
+                <a href="{{url('')}}/es/tours/decouverte/Discover" class="btn btn-lg btn-primary hvr-sweep-to-right">Explorar viajes</a>
             </div>
         </div>
-        <div class="item with-overlay" style="background-image: url('{{url('')}}/img/4.jpg');">
+        <div class="item with-overlay" style="background-image: url('{{url('')}}/img/avent_final.png');">
             <div class="carousel-caption center-txt">
                 <h1 class="main-header">Aventura</h1>
                 <hr>
                 <p class="sub-header">Para aquellos que aman el trekking en lugares todavía auténticos y salvajes</p>
-                <a href="" class="btn btn-lg btn-primary hvr-sweep-to-right">Explorar viajes</a>
+                <a href="{{url('')}}/es/tours/decouverte/Aventure" class="btn btn-lg btn-primary hvr-sweep-to-right">Explorar viajes</a>
             </div>
         </div>
-        <div class="item with-overlay" style="background-image: url('{{url('')}}/img/5.jpg');">
+        <div class="item with-overlay" style="background-image: url('{{url('')}}/img/alta_mon2.jpg');">
             <div class="carousel-caption center-txt">
                 <h1 class="main-header">Alta Montaña</h1>
                 <hr>
                 <p class="sub-header">Para los amantes de las altas cumbres y los nuevos desafíos</p>
-                <a href="" class="btn btn-lg btn-primary hvr-sweep-to-right">Explorar viajes</a>
+                <a href="{{url('')}}/es/tours/decouverte/High-Mountain" class="btn btn-lg btn-primary hvr-sweep-to-right">Explorar viajes</a>
             </div>
         </div>
-        <div class="item with-overlay" style="background-image: url('{{url('')}}/img/files/le-trek-du-chemin-inca.jpg');">
+        <div class="item with-overlay" style="background-image: url('{{url('')}}/img/excur.jpg');">
             <div class="carousel-caption center-txt">
                 <h1 class="main-header">Excursiones</h1>
                 <hr>
                 <p class="sub-header">Visitas a los 4 rincones de Perú</p>
-                <a href="" class="btn btn-lg btn-primary hvr-sweep-to-right">Explorar viajes</a>
+                <a href="{{url('')}}/es/tours/decouverte/Excursions" class="btn btn-lg btn-primary hvr-sweep-to-right">Explorar viajes</a>
             </div>
         </div>
 

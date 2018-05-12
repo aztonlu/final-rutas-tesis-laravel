@@ -325,13 +325,16 @@ Route::post('update','Admin\ToursController@update');
 Route::post('updateOrganization','Admin\ToursController@updateOrganization');
 Route::get('editGallery/{id}','Admin\ToursController@editGallery');
 Route::get('destroyGallery/{id}/{tour_id}/','Admin\ToursController@destroyGallery');
+Route::get('destroyImageTour/{id}/{tour_id}/','Admin\ToursController@destroyImageTour');
+
 Route::get('destroyOrganization/{id}/{tour_id}/','Admin\ToursController@destroyOrganization');
 Route::get('editOrganization/{id}','Admin\ToursController@editOrganization');
 Route::resource('mail','MailController');
 Route::get('getTags','TagControllerWeb@getTags');
 Route::get('getOrganization','TagControllerWeb@getOrganization');
 Route::post('editEtape','TagControllerWeb@editEtape');
-Route::get('tourshow/{id}','TourControllerWeb@tourshow');
+Route::post('editMeasure','TagControllerWeb@editMeasure');
+Route::get('{language}/tourshow/{id}','TourControllerWeb@tourshow');
 Route::get('filterTours','TourControllerWeb@filterTours');
 Route::post('sendComment','TagControllerWeb@sendComment');
 Route::post('storeReservation','Admin\ReservationsController@store');
@@ -344,7 +347,7 @@ Route::group(['prefix' => 'tours'], function (){
         return view('website.fr.tours.aventure.aventure');
     });
     Route::get('/decouverte/{categoryf}','TourControllerWeb@index');
-    Route::get('tourshow','TourControllerWeb@tourshow');
+    
     /* Decouverte */
 
    /* Route::get('/decouverte', function () {
@@ -535,7 +538,7 @@ Route::group(['prefix' => 'admin'], function (){
 
 });
 
-// Rutas de autenticaci贸n...
+// Rutas de autenticación...
 /*
 Route::get('admin/auth/login', [
     'uses'  => 'Auth\AuthController@getLogin',
@@ -586,6 +589,8 @@ Route::group(['prefix' => '/'], function (){
     ]);
     
     Route::get('/{language}/tours/{category}/{categoryTour}','TourControllerWeb@index');
+    Route::get('/{language}/tours/{tour_category}','TourControllerWeb@indexCategory');
+
     
 });
 

@@ -15,6 +15,7 @@ use App\Models\TourGallery;
 use App\Models\Organization;
 use App\Models\Country;
 use App\Models\SubCategory;
+use App\Models\CategoryTour;
 use Illuminate\Support\Facades\Auth;
 use Image;
 use DB;
@@ -184,8 +185,22 @@ class ToursController extends Controller
         $tour->category = $request->categories;
         $tour->difficulty = $request->difficulty;
         $tour->save();
+
+
         $idTour = Tour::latest()->value('id');
         $tour = Tour::where('id',$idTour)->get();
+
+        $etapeInto = $request->input('measures');
+        
+        for($y=0; $y < count($etapeInto); $y++)
+        {
+            $categoryTour = new CategoryTour;
+            $categoryTour->id_tour = $idTour;
+            $categoryTour->category = $etapeInto[$y];
+            $categoryTour->save();
+            
+            
+        }
         flash('Tour inserted', 'success')->important();
         return view('admin.tours.createImages')->with('tour', $tour);
 
@@ -206,7 +221,11 @@ class ToursController extends Controller
         $gallery = TourGallery::where('tour_id',$id)->paginate(5);
         $organization = Organization::where('tour_id',$id)->get();
         $imageTour = ImageTour::where('tour_id',$id)->get();
-        return view('admin.tours.edit')->with('tours', $tour)->with('galleries',$gallery)->with('organizations',$organization)->with('categories',$categories)->with('images',$imageTour);
+        
+        $categoryTour = CategoryTour::where('id_tour',$id)->pluck('category');
+        $tags = DB::table('category_tour_values')->whereNotIn('category_tour_values.name', $categoryTour)->pluck('name');
+
+        return view('admin.tours.edit')->with('tours', $tour)->with('galleries',$gallery)->with('organizations',$organization)->with('categories',$categories)->with('images',$imageTour)->with('category_tours',$categoryTour)->with('tags',$tags);
     }
     public function saveImagesTour($id)
     {
@@ -240,6 +259,16 @@ class ToursController extends Controller
         $user->delete();
         return Redirect::route('tours.edit', ['id' => $tour_id]);
 
+    }
+    public function destroyImageTour($id, $tour_id)
+    {
+        $image = ImageTour::where('id',$id)->value('routeImage');
+        unlink($image);
+
+        $user = ImageTour::where('id',$id)->first();
+        $user->delete();
+        return Redirect::route('tours.edit', ['id' => $tour_id]);
+        
     }
     public function destroyOrganization($id,$tour_id)
     {

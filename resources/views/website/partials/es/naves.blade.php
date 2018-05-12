@@ -16,27 +16,30 @@
 
             <div class="navbar-collapse collapse" id="main-navbar">
                 <ul class="nav navbar-nav">
-                    <li>  <a href="filtrer.html"><small class="menu-important">VIAJES EN GRUPO!!</small></a></li>
-
+                    
                     <li class="dropdown megamenu">
                         <a class="dropdown-toggle" href="#NosVoyages">Nuestro viaje</a>
                         <div class="dropdown-menu">
-                            <div class="col-sm-4">
-                                <h5 class="head"><i class="icon-hiking"><a href="{{url('')}}/es/tours/decouverte/Discover"></i> Randonnees et Treks</h5></a>
+                            <ul>
+                            <div class="col-sm-6">
+                                
+                                <h5 class="head"><i class="icon-hiking"></i><a href="{{url('')}}/es/tours/decouverte/Discover"> Descubrir</h5></a>
                                 
                             </div>
-                            <div class="col-sm-4">
-                                <h5 class="head"><i class="icon-backpack"></i> Cultures et decouvertes</h5>
+
+                            <div class="col-sm-6">
+                                <h5 class="head"><i class="icon-backpack"></i><a href="{{url('')}}/es/tours/decouverte/Aventure"> Aventura</h5></a>
                                 
                             </div>
-                            <div class="col-sm-4">
-                                <h5 class="head"><i class="icon-rock-climbing"></i> Aventures et adrénaline</h5>
+                            <div class="col-sm-6">
+                                <h5 class="head"><i class="icon-rock-climbing"></i><a href="{{url('')}}/es/tours/decouverte/High-Mountain"> Alta Montanña</h5></a>
                                 
                             </div>
-                            <div class="col-sm-4">
-                                <h5 class="head"><i class="icon-rock-climbing"></i> Excursions</h5>
+                            <div class="col-sm-6">
+                                <h5 class="head"><i class="icon-rock-climbing"></i><a href="{{url('')}}/es/tours/decouverte/Excursions"> Excursiones</h5></a>
                                 
                             </div>
+                        </ul>
                         </div>
                     </li>
 
@@ -85,7 +88,19 @@
 
                     <li><a href="#testimonial">Testimonios</a></li>
 
-                    <li><a href="#contact-us">Contactenos</a></li>
+                    
+                    <li><a href="#map-section">Contactenos</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Langues <span class="caret"></a>
+                        
+                            <ul class="dropdown-menu" style="min-width: 80px">
+                                <li><a class="route-language" href="{{url('')}}"><img class="img-lng"  src="{{url('')}}/img/lng/fr.png" alt="Idioma"></a></li>
+                                <li><a class="route-language" href="{{url('')}}/en"><img class="img-lng"  src="{{url('')}}/img/lng/en.png" alt="Idioma"></a></li>
+                                <li><a class="route-language" href="{{url('')}}/es"><img class="img-lng"  src="{{url('')}}/img/lng/es.png" alt="Idioma"></a></li>
+                                <li><a class="route-language" href="{{url('')}}/de"><img class="img-lng"  src="{{url('')}}/img/lng/de.png" alt="Idioma"></a></li>
+                                <li><a class="route-language" href="{{url('')}}/it"><img class="img-lng"  src="{{url('')}}/img/lng/it.png" alt="Idioma"></a></li>
+                            </ul>
+                    </li>
 
                 </ul>
             </div>

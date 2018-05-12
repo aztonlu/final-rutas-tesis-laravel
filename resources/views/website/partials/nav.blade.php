@@ -50,7 +50,7 @@
                         </div>
                     </li>
 
-                    <li>  <a href="{{url('')}}/fr/#about-us">Sur mesure</a></li>
+                    <li>  <a href="#about-us">Sur mesure</a></li>
 
                     
 
@@ -63,7 +63,17 @@
                     <li><a href="#testimonial">Témoignages</a></li>
 
                     <li><a href="#contact-us">Nous Contacter</a></li>
-
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Langues <span class="caret"></a>
+                        
+                            <ul class="dropdown-menu" style="min-width: 70px">
+                                <li><a class="route-language" href="{{url('')}}"><img class="img-lng" src="{{url('')}}/img/lng/fr.png" alt="Idioma"></a></li>
+                                <li><a class="route-language" href="{{url('')}}/en"><img class="img-lng" src="{{url('')}}/img/lng/en.png" alt="Idioma"></a></li>
+                                <li><a class="route-language" href="{{url('')}}/es"><img class="img-lng" src="{{url('')}}/img/lng/es.png" alt="Idioma"></a></li>
+                                <li><a class="route-language" href="{{url('')}}/de"><img class="img-lng" src="{{url('')}}/img/lng/de.png" alt="Idioma"></a></li>
+                                <li><a class="route-language" href="{{url('')}}/it"><img class="img-lng" src="{{url('')}}/img/lng/it.png" alt="Idioma"></a></li>
+                            </ul>
+                    </li>
                 </ul>
             </div>
 

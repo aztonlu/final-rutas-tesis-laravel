@@ -1,4 +1,4 @@
-@extends('website.partials.en.maintrip')
+@extends('website.partials.maintriptreasure')
 @section('title', 'Trésors du sud Pérou')
 @section('keywords', 'machu picchu, agence voyage, voyage de noce, circuit perou, voyage perou, voyage au perou, perou, nomade aventure, le perou, lac titicaca, tour operateur, Agence de voyages au Pérou')
 @section('description', 'From the coast to Machu Picchu, this trip combines the main sites of Peru. You will start on the coast with the Ballestas Islands and the Huacachina oasis as well as Nasca and its mysterious lines. You will then continue your journey visiting the beautiful city of Arequipa and the Colca Canyon before heading for Lake Titicaca. Your trip will end with the must-see Cusco region and its Inca sites including the most famous place, the majestic citadel Machu Picchu.')
@@ -42,35 +42,35 @@
                 <div class="shop-item">
 
                     <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height: 450px">
-                        <ol class="carousel-indicators">
-                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                           @foreach($images as $gallery)
+                    	<ol class="carousel-indicators">
+					      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					       @foreach($images as $gallery)
                             <li data-target="#myCarousel" data-slide-to="0"></li>
                             @endforeach
-                          
-                        </ol>
-                        <div class="carousel-inner">
-                          <div class="item active">
-                            <img src="{{url('')}}/{{ $tour->coverpage }}"  style="width:100%; height: 450px;">
-                          </div>
-                          
-                          @foreach($images as $gallery)
-                              <div class="item">
-                                <img src="{{url('')}}/{{ $gallery->routeImage }}" style="width:100%; height: 450px;">
-                              </div>
-                              
-                            @endforeach
-                          
-                        </div>
-                        <!-- Left and right controls -->
-                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                          <span class="glyphicon glyphicon-chevron-left"></span>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                          <span class="glyphicon glyphicon-chevron-right"></span>
-                          <span class="sr-only">Next</span>
-                        </a>
+					      
+					    </ol>
+					    <div class="carousel-inner">
+					      <div class="item active">
+					        <img src="{{url('')}}/{{ $tour->coverpage }}"  style="width:100%; height: 450px;">
+					      </div>
+					      
+					      @foreach($images as $gallery)
+						      <div class="item">
+						        <img src="{{url('')}}/{{ $gallery->routeImage }}" style="width:100%; height: 450px;">
+						      </div>
+						      
+					    	@endforeach
+					      
+					    </div>
+					    <!-- Left and right controls -->
+					    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					      <span class="glyphicon glyphicon-chevron-left"></span>
+					      <span class="sr-only">Previous</span>
+					    </a>
+					    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+					      <span class="glyphicon glyphicon-chevron-right"></span>
+					      <span class="sr-only">Next</span>
+					    </a>
                     </div>
 
 
@@ -80,6 +80,7 @@
 
             <div class="description">
                 <h3>En quelques mots...</h3>
+                <br>
                 <p>{{ $tour->summary}}</p>
                 
             </div>
@@ -156,12 +157,12 @@
             </div>
             <div class="content-buy">
                 <div class="content-categories">
-                    <div class="categories"><i class="icon-mountain"></i> <strong>Altitude1-1-1:</strong></div><div class="categorie-detail"> 4500 msnm</div>
+                    <div class="categories"><i class="icon-mountain"></i> <strong>Altitude:</strong></div><div class="categorie-detail"> 4500 msnm</div>
                     <div class="categories"><i class="icon-shoe"></i> <strong>Niveau:</strong></div><div class="categorie-detail"> {{ $tours[0]->difficulty }}</div>
                     <div class="categories"><i class="icon-backpack"></i> <strong>Séjour:</strong></div><div class="categorie-detail"> {{ $tours[0]->category }}</div>
                     <div class="categories"><i class="icon-hand-like"></i> <strong>Confort:</strong></div><div class="categorie-detail"> <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-half"></i></div>
                 </div>
-                <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">RÉSERVER11</button><button class="btn btn-info" data-toggle="modal" data-target="#myQestion"><span class="icon-chat"></span></button>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">RÉSERVER</button><button class="btn btn-info" data-toggle="modal" data-target="#myQestion"><span class="icon-chat"></span></button>
             </div>
 
             <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxJnaq8H2Ib6E0bBT1sTnSnGZ5tqONxFI&callback=initMap"></script>
@@ -531,68 +532,68 @@
     display:inline;
 }
 footer{
-  background-color: rgb(9,36,10);
+  background-color: rgb(16,54,9);
 }
 </style>
 
+
+
+<!--inicio del footer-->
+
  <footer >
             
-    <div class="footer-top wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;background-color: rgb(13,52,14);">
+    <div class="footer-top wow fadeInUp animated" style="padding-top: 0px;" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;background-color: rgb(23,58,27)">
         
-            
-      <div class="container text-center">
-          <div class="col-sm-10">
-              <h4>CATEGORIAS</h4>
-              
+
+
+<div class="container-fluid">
+  <div class="row" style="text-align: center; color: white;">
+ 
+     <div class="col-xs-12 col-md-8">
+      <div class="row" sty>
+        <div class="col-xs-12">
+            <h2><strong>TOURS</strong></h2>
+        </div>
+    
+      </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                   <a href="{{url('')}}/fr/tours/decouverte/Aventure"><h4>Aventure</h4></a>
+              <a href="{{url('')}}/fr/tours/decouverte/Aventure"><img src="{{url('')}}/img/Aventura.jpg" height="60%" width="60%"> 
             </div>
-        <div class="col-sm-12" style="">
-          <div class="col-sm-2" style="padding-top: 10%;">
-            
-              <a href="#"><img height="170%" width="170%" src="{{ url('') }}/img/terandes-logo.png"  ></a>
-            
-          </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                  <a href="{{url('')}}/fr/tours/decouverte/High-Mountain"><h4>Haute Montagne</h4></a>
+            <a href="{{url('')}}/fr/tours/decouverte/High-Mountain"><img src="{{url('')}}/images/Alta_montaña.jpg" height="60%" width="60%" class="img-circle"></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                  <a href="{{url('')}}/fr/tours/decouverte/Discover"><h4>Decouverte</h4></a>
+              <a href="{{url('')}}/fr/tours/decouverte/Discover"><img src="{{url('')}}/images/Descubir.jpg" height="60%" width="60%" class="img-circle"></a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <a href="{{url('')}}/fr/tours/decouverte/Excursions"><h4>Excursions</h4></a>
+                <a href="{{url('')}}/fr/tours/decouverte/Excursions"><img src="{{url('')}}/images/Excursiones.jpg" height="60%" width="60%" class="img-circle"></a>
+            </div>
+        </div>
+    </div>
+     <div class="col-xs-12 col-md-4">
+            <h2><strong>S'inscrire</strong></h2>
+        
+            <h5 style="color: #fff;">Abonnez-vous pour rester à jour sur les nouvelles et les notifications</h5>
           
-          <div class="col-sm-6">
-              
-            <div class="col-sm-6">
-              <h4>Aventure</h4>
-              <img src="{{ url('') }}/img/Aventura.jpg" height="60%" width="60%" class="img-circle">
-            </div>
-            <div class="col-sm-6">
-              <h4>Haute Montagne</h4>
-                <img src="{{ url('') }}/images/Alta_montaña.jpg" height="60%" width="60%" class="img-circle">
-            </div>
-            <div class="col-sm-6">
-              <h4>Decouverte</h4>
-              <img src="{{ url('') }}/img/Descubir.jpg" height="60%" width="60%" class="img-circle">
-            </div>
-            <div class="col-sm-6">
-              <h4>Excursions</h4>
-                <img src="{{ url('') }}/img/Excursiones.jpg" height="60%" width="60%" class="img-circle">
-            </div>
-            
-          </div>
-          
-          <div class="col-sm-4">
-            <h4>Suscribete</h4>
-            <h5 style="color: #fff;">Suscríbase para recibir nuestras de noticias y notificaciones nuevas</h5>
-            <center>
               <form action="{{route('publicnewsletters.store')}}" method="post">
             {{ csrf_field() }}
               <?php $url = Request::path();?>
               <input type="hidden" name="language" value="{{$url}}">
-              <input name='email' placeholder='example@hotmail.com' class="form-control text-center" type="email" style="width:230px" >
-              <br><br><br>
-              <button type="" class="btn-submit text-center" style="background-color:#fff;width:300px;text-align: center;color:#000;margin-left:5px" >Suscribirme ahora</button>
+              <input name='email' placeholder='example@mail.com' class="form-control text-center" type="email" style="width:90%">
+              <button type="submit" class="btn-submit text-center" style="width:90%">Inscrivez-vous maintenant</button>
                   
           </form>
-            </center>
-          </div>
-        </div>
-        
-        
-      </div>
+           
     </div>
+  </div>
+</div>
+    </div>
+ 
     
   </footer>
 @endsection

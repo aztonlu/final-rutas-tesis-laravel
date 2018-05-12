@@ -5,6 +5,7 @@ use App\Models\Tag;
 use App\Models\Comment;
 use App\Models\Organization;
 use Illuminate\Http\Request;
+use App\Models\CategoryTour;
 use App\Models\EtapeGallery;
 
 class TagControllerWeb extends Controller
@@ -62,6 +63,27 @@ class TagControllerWeb extends Controller
         }
 
         return Response($city);
+    }
+    public function editMeasure(Request $request)
+    {
+        $measure = $request->measure;
+        $estado = $request->estado;
+        $idTour = $request->idTour;
+
+        $idCategory = CategoryTour::where('id_tour',$idTour)->where('category',$measure)->value('id');
+        if($estado == "inputCheck")
+        {
+            $etapeGallery = new CategoryTour;
+            $etapeGallery->id_tour = $idTour;
+            $etapeGallery->category = $measure;
+            $etapeGallery->save();
+        }
+        elseif ($estado == "outputCheck") {
+             $etape = CategoryTour::find($idCategory);
+             $etape->delete();
+        }
+
+        return Response($measure);
     }
     public function sendComment(Request $request)
     {

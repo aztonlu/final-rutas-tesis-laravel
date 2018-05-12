@@ -15,7 +15,7 @@
     <meta name="twitter:card" content="" />
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>@yield('title', 'Decouverte') | Terandes</title>
+    <title>@yield('title', 'Decouverte') | Terandes2222</title>
     <meta name="keywords" content="@yield('keywords')"/>
     <meta name="description" content="@yield('description')"/>
     <link rel="stylesheet" href="{{url('')}}/css/min/bootstrap.mn.css" media="all" >
